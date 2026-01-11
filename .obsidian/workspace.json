@@ -25,14 +25,12 @@
             "id": "55ae47041f6ae68d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2106 Analysis of Algorithms/Resources.md",
-                "mode": "source",
-                "source": false
+                "file": "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Resources"
+              "icon": "lucide-file-text",
+              "title": "Introduction-to-Analysis-of-Algorithms-2"
             }
           }
         ],
@@ -196,13 +194,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d47942717d150c4",
+  "active": "55ae47041f6ae68d",
   "lastOpenFiles": [
-    "2106 Analysis of Algorithms/Untitled",
-    "Untitled",
-    "2106 Analysis of Algorithms/Introduction-to-Analysis-of-Algorithms-2.pdf",
-    "2106 Analysis of Algorithms/Logs.md",
     "2106 Analysis of Algorithms/Resources.md",
+    "2106 Analysis of Algorithms/Downloaded resources",
+    "Untitled",
+    "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
+    "2106 Analysis of Algorithms/Logs.md",
     "Logs.pdf",
     "README.md",
     "2106 Analysis of Algorithms",
