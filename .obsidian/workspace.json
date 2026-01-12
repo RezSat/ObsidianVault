@@ -25,12 +25,14 @@
             "id": "55ae47041f6ae68d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Introduction-to-Analysis-of-Algorithms-2"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -194,13 +196,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "55ae47041f6ae68d",
+  "active": "5d47942717d150c4",
   "lastOpenFiles": [
+    "System Design & Analysis",
     "2106 Analysis of Algorithms/Resources.md",
-    "2106 Analysis of Algorithms/Downloaded resources",
-    "Untitled",
-    "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
     "2106 Analysis of Algorithms/Logs.md",
+    "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
+    "2106 Analysis of Algorithms/Downloaded resources",
     "Logs.pdf",
     "README.md",
     "2106 Analysis of Algorithms",
