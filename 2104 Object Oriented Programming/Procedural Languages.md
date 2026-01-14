@@ -1,5 +1,9 @@
 Problems at Larger Scale
  -  No Data Protection
  ```
- students[0].marks = -999; // Inval
+ students[0].marks = -999; // Invalid but allowed!
+ students[0].age = -5; // Nonsense;
+ students[0].id = 9999; // Could be duplicate;
  ```
+ - Function Explosion
+ 
