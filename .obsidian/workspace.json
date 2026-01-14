@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2104 Object Oriented Programming/Java.md",
+                "file": "2104 Object Oriented Programming/Procedural Languages.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java"
+              "title": "Procedural Languages"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bb705362a70a2a4d",
@@ -183,11 +184,12 @@
   },
   "active": "1048a80fd00fe139",
   "lastOpenFiles": [
+    "2104 Object Oriented Programming/Java.md",
+    "2104 Object Oriented Programming/Procedural Languages.md",
     "Untitled.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "Extra/Data-Science-summary-of-course.pdf",
     "2102 Data Strucutures",
-    "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming",
     "Extra/Data-Science-hand-book.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
