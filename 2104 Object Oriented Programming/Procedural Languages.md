@@ -6,4 +6,9 @@ Problems at Larger Scale
  students[0].id = 9999; // Could be duplicate;
  ```
  - Function Explosion
- 
+ ```
+ addStudent(), displayStudent(), calculateStudentAverage(), addTeacher(), displayTeacher()....hundreds of functions!
+ ```
+ - Hard to maintain
+ ```
+ ```
