@@ -11,6 +11,7 @@ Problems at Larger Scale
  ```
  - Hard to maintain
  ```
- Changing student structure might require updating 30+ functions
+ Changing One strucuture (ex:student) might require updating 30+ functions
  ```
+ 
  
