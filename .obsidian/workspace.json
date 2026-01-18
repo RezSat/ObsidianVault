@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "df0296daa2bc5c98",
+        "id": "a8591346c094e393",
         "type": "tabs",
         "children": [
           {
-            "id": "247d4f123ed18dde",
+            "id": "d0abad4e522ca744",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Extra/Semester II- DSTime table_23-24.pdf"
+                "file": "Capstone Project/Project Proposal.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Semester II- DSTime table_23-24"
+              "icon": "lucide-file",
+              "title": "Project Proposal"
             }
           }
         ]
@@ -179,23 +181,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "247d4f123ed18dde",
+  "active": "d0abad4e522ca744",
   "lastOpenFiles": [
+    "README.md",
+    "Capstone Project/Project Proposal.md",
+    "Capstone Project",
+    "Extra/Semester II- DSTime table_23-24.pdf",
+    "Extra/Data-Science-summary-of-course.pdf",
+    "Extra/Data-Science-2nd-sem.pdf",
+    "Extra/Data-Science-hand-book.pdf",
     "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
-    "Untitled.md",
-    "Extra/Semester II- DSTime table_23-24.pdf",
-    "Extra/Data-Science-summary-of-course.pdf",
     "2102 Data Strucutures",
     "2104 Object Oriented Programming",
-    "Extra/Data-Science-hand-book.pdf",
-    "Extra/Data-Science-2nd-sem.pdf",
     "2106 Analysis of Algorithms/Logs.md",
-    "README.md",
     "Extra",
     "New folder",
-    "2107 System Analysis & Design",
     "2106 Analysis of Algorithms/Resources.md"
   ]
 }
