@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bf37c98aaf04dd72",
+        "id": "df0296daa2bc5c98",
         "type": "tabs",
         "children": [
           {
-            "id": "1048a80fd00fe139",
+            "id": "247d4f123ed18dde",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2104 Object Oriented Programming/Java.md",
-                "mode": "source",
-                "source": false
+                "file": "Extra/Semester II- DSTime table_23-24.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Java"
+              "icon": "lucide-file-text",
+              "title": "Semester II- DSTime table_23-24"
             }
           }
         ]
@@ -181,10 +179,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "1048a80fd00fe139",
+  "active": "247d4f123ed18dde",
   "lastOpenFiles": [
-    "2104 Object Oriented Programming/Procedural Languages.md",
+    "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
     "2104 Object Oriented Programming/Java.md",
+    "2104 Object Oriented Programming/Procedural Languages.md",
     "Untitled.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "Extra/Data-Science-summary-of-course.pdf",
@@ -197,7 +196,6 @@
     "Extra",
     "New folder",
     "2107 System Analysis & Design",
-    "2106 Analysis of Algorithms/Resources.md",
-    "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf"
+    "2106 Analysis of Algorithms/Resources.md"
   ]
 }
