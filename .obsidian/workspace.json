@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Capstone Project/Project Proposal.md",
+                "file": "Capstone Project/NoteOnProjectByLecturer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project Proposal"
+              "title": "NoteOnProjectByLecturer"
             }
           }
         ]
@@ -183,10 +183,11 @@
   },
   "active": "d0abad4e522ca744",
   "lastOpenFiles": [
-    "Capstone Project/Guidelines (1).pdf",
     "Capstone Project/Guidelines.pdf",
-    "README.md",
+    "Capstone Project/NoteOnProjectByLecturer.md",
     "Capstone Project/Project Proposal.md",
+    "Capstone Project/Guidelines (1).pdf",
+    "README.md",
     "Capstone Project",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "Extra/Data-Science-summary-of-course.pdf",
@@ -198,7 +199,6 @@
     "2102 Data Strucutures",
     "2104 Object Oriented Programming",
     "2106 Analysis of Algorithms/Logs.md",
-    "Extra",
     "2106 Analysis of Algorithms/Resources.md"
   ]
 }
