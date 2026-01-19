@@ -1,14 +1,8 @@
-# Student Knowledge Exchange Platform
+Prompt:
+I have two three things I can give you. The Full Capstone Project Guidelines pdf. The content present in the University Handbook about the course, this semester and this particular capstone project. My degree is B.Sc. (Hons) in Data Science. Next is some important notice shared by the lecturer in charge of this capstone project I for this semester.
 
-- Simply its a platform for "kuppi" sessions and resource sharing.
-- There are in-site video conferencing, rather this is a management platform.
+What I need is project that solves a real world problem, and is in covering the guidelines from the pdf, content present in the handbook (I assume in the handbook they just mention some probable outcomes from the capstone project, it doesn't explicitly say we need to do all in that given content but we could combine few right), and then take the important notice shared by the lecturer. I need a project covering those everything so that my project outline won't be rejected and I can simply work on these.
 
-### Functional Requirements
+Let's start by brainstorming ideas. I am in sri lanka if that helps. Long before coming to universtiy I have prior experience in full stack web development (including building websites for high end enterprise and corporate clients, which yes includes finance company) I worked with different backend and frontend frameworks including React, Nextjs, flask, django, fastapi, payloadcms, worked with different databases mysql, postgresql, mongodb, firebase google, neo4j. I have a systems engineering background, and reverse engineering background. I mostly do low level engineering, optimising, machine learning and mathematics. This project is just a simple work i should do for the grades nothing more. But I always like to take the opportunity of learning how to create different scalable and working systems, therefore I will take this seriously but regardless of how i build it later, I need an idea to start off with.
 
-### Non-Functional Requirements
-
-#### Questions I still have
-
-- how does it related to data science
-- where the analysis happened
-- tech stack is clean and predictable but how the process should look like
+so lets start like this, project title, 

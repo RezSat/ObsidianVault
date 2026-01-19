@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a8591346c094e393",
+        "id": "d63cb0f19b75f24b",
         "type": "tabs",
         "children": [
           {
-            "id": "d0abad4e522ca744",
+            "id": "59b82853c8ae5662",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2101 Operating Systems/Linux Command Sheet Cheat.md",
+                "file": "Capstone Project/Project Proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Command Sheet Cheat"
+              "title": "Project Proposal"
             }
           }
         ]
@@ -181,21 +181,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "d0abad4e522ca744",
+  "active": "59b82853c8ae5662",
   "lastOpenFiles": [
-    "2104 Object Oriented Programming/Java.md",
-    "2101 Operating Systems/Linux Command Sheet Cheat.md",
-    "2104 Object Oriented Programming/Procedural Languages.md",
+    "Capstone Project/HandbookContent.md",
+    "Extra/Data-Science-hand-book.pdf",
+    "Extra/Data-Science-summary-of-course.pdf",
     "Capstone Project/Project Proposal.md",
+    "2101 Operating Systems/Linux Command Sheet Cheat.md",
+    "2104 Object Oriented Programming/Java.md",
+    "2104 Object Oriented Programming/Procedural Languages.md",
     "Capstone Project/NoteOnProjectByLecturer.md",
     "Capstone Project/Guidelines.pdf",
     "Capstone Project/Guidelines (1).pdf",
     "README.md",
     "Capstone Project",
     "Extra/Semester II- DSTime table_23-24.pdf",
-    "Extra/Data-Science-summary-of-course.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
-    "Extra/Data-Science-hand-book.pdf",
     "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
     "2102 Data Strucutures",
     "2104 Object Oriented Programming",
