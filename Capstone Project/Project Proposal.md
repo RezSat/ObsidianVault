@@ -10,5 +10,5 @@
 #### Questions I still have
 
 - how does it related to data science
-- where the analysis happend
+- where the analysis happened
 - tech stack is clean and predictable but how the process should look like
