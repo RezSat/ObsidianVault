@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Capstone Project/NoteOnProjectByLecturer.md",
+                "file": "2101 Operating Systems/Linux Command Sheet Cheat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NoteOnProjectByLecturer"
+              "title": "Linux Command Sheet Cheat"
             }
           }
         ]
@@ -183,9 +183,12 @@
   },
   "active": "d0abad4e522ca744",
   "lastOpenFiles": [
-    "Capstone Project/Guidelines.pdf",
-    "Capstone Project/NoteOnProjectByLecturer.md",
+    "2104 Object Oriented Programming/Java.md",
+    "2101 Operating Systems/Linux Command Sheet Cheat.md",
+    "2104 Object Oriented Programming/Procedural Languages.md",
     "Capstone Project/Project Proposal.md",
+    "Capstone Project/NoteOnProjectByLecturer.md",
+    "Capstone Project/Guidelines.pdf",
     "Capstone Project/Guidelines (1).pdf",
     "README.md",
     "Capstone Project",
@@ -194,8 +197,6 @@
     "Extra/Data-Science-2nd-sem.pdf",
     "Extra/Data-Science-hand-book.pdf",
     "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
-    "2104 Object Oriented Programming/Java.md",
-    "2104 Object Oriented Programming/Procedural Languages.md",
     "2102 Data Strucutures",
     "2104 Object Oriented Programming",
     "2106 Analysis of Algorithms/Logs.md",
