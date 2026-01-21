@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c0298d2b74e7f320",
+        "id": "b6f468c13ee0bfb7",
         "type": "tabs",
         "children": [
           {
-            "id": "1c273e6a9ddd5286",
+            "id": "169ce0e25646d7ba",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,15 +177,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d47942717d150c4",
+  "active": "169ce0e25646d7ba",
   "lastOpenFiles": [
-    "2103 Linear Algebra",
+    "2101 Operating Systems/Linux Command Sheet Cheat.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "Extra/Data-Science-summary-of-course.pdf",
+    "2103 Linear Algebra",
     "Capstone Project/Project Proposal.md",
     "Capstone Project/HandbookContent.md",
     "Extra/Data-Science-hand-book.pdf",
-    "2101 Operating Systems/Linux Command Sheet Cheat.md",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
     "Capstone Project/NoteOnProjectByLecturer.md",
@@ -196,7 +196,6 @@
     "Extra/Data-Science-2nd-sem.pdf",
     "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
     "2102 Data Strucutures",
-    "2104 Object Oriented Programming",
     "2106 Analysis of Algorithms/Logs.md",
     "2106 Analysis of Algorithms/Resources.md"
   ]
