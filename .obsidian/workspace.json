@@ -11,13 +11,28 @@
             "id": "169ce0e25646d7ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Extra/Semester II- DSTime table_23-24.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Semester II- DSTime table_23-24"
+            }
+          },
+          {
+            "id": "16b3cda05979f4d5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +192,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "169ce0e25646d7ba",
+  "active": "16b3cda05979f4d5",
   "lastOpenFiles": [
     "2101 Operating Systems/Linux Command Sheet Cheat.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
