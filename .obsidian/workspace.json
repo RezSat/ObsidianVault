@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fec4948a664187a3",
+        "id": "a72c9e942503c0b2",
         "type": "tabs",
         "children": [
           {
-            "id": "44ee4b714ee10093",
+            "id": "c6f41b58770febf4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "2106 Analysis of Algorithms/Downloaded resources/MIT6_046JS15_lec01.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "MIT6_046JS15_lec01"
             }
           }
         ]
@@ -74,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bb705362a70a2a4d",
@@ -177,14 +180,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "44ee4b714ee10093",
+  "active": "c6f41b58770febf4",
   "lastOpenFiles": [
+    "2106 Analysis of Algorithms/Logs.md",
+    "2106 Analysis of Algorithms/Downloaded resources/MIT6_046JS15_lec01.pdf",
+    "2106 Analysis of Algorithms/Resources.md",
+    "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
+    "2101 Operating Systems/Linux Command Sheet Cheat.md",
     "Capstone Project/Guidelines.pdf",
     "Capstone Project/HandbookContent.md",
     "Capstone Project/NoteOnProjectByLecturer.md",
     "Capstone Project/Project Proposal.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
-    "2101 Operating Systems/Linux Command Sheet Cheat.md",
     "Extra/Data-Science-summary-of-course.pdf",
     "2103 Linear Algebra",
     "Extra/Data-Science-hand-book.pdf",
@@ -193,10 +200,6 @@
     "Capstone Project/Guidelines (1).pdf",
     "README.md",
     "Capstone Project",
-    "Extra/Data-Science-2nd-sem.pdf",
-    "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
-    "2102 Data Strucutures",
-    "2106 Analysis of Algorithms/Logs.md",
-    "2106 Analysis of Algorithms/Resources.md"
+    "Extra/Data-Science-2nd-sem.pdf"
   ]
 }
