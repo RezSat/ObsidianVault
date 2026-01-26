@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b6f468c13ee0bfb7",
+        "id": "fec4948a664187a3",
         "type": "tabs",
         "children": [
           {
-            "id": "169ce0e25646d7ba",
+            "id": "44ee4b714ee10093",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Extra/Semester II- DSTime table_23-24.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Semester II- DSTime table_23-24"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -179,19 +177,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "169ce0e25646d7ba",
+  "active": "44ee4b714ee10093",
   "lastOpenFiles": [
-    "2101 Operating Systems/Linux Command Sheet Cheat.md",
+    "Capstone Project/Guidelines.pdf",
+    "Capstone Project/HandbookContent.md",
+    "Capstone Project/NoteOnProjectByLecturer.md",
+    "Capstone Project/Project Proposal.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
+    "2101 Operating Systems/Linux Command Sheet Cheat.md",
     "Extra/Data-Science-summary-of-course.pdf",
     "2103 Linear Algebra",
-    "Capstone Project/Project Proposal.md",
-    "Capstone Project/HandbookContent.md",
     "Extra/Data-Science-hand-book.pdf",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
-    "Capstone Project/NoteOnProjectByLecturer.md",
-    "Capstone Project/Guidelines.pdf",
     "Capstone Project/Guidelines (1).pdf",
     "README.md",
     "Capstone Project",
