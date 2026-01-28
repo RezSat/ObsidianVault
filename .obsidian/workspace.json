@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2106 Analysis of Algorithms/Downloaded resources/MIT6_046JS15_lec01.pdf"
+                "file": "2103 Linear Algebra/Lecture Notes/Note_01.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "MIT6_046JS15_lec01"
+              "title": "Note_01"
             }
           }
         ]
@@ -181,8 +181,11 @@
   },
   "active": "c6f41b58770febf4",
   "lastOpenFiles": [
-    "2106 Analysis of Algorithms/Logs.md",
     "2106 Analysis of Algorithms/Downloaded resources/MIT6_046JS15_lec01.pdf",
+    "2103 Linear Algebra/Lecture Notes/Note_02.pdf",
+    "2103 Linear Algebra/Lecture Notes/Note_01.pdf",
+    "2103 Linear Algebra/Lecture Notes",
+    "2106 Analysis of Algorithms/Logs.md",
     "2106 Analysis of Algorithms/Resources.md",
     "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
     "2101 Operating Systems/Linux Command Sheet Cheat.md",
@@ -197,8 +200,6 @@
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
     "Capstone Project/Guidelines (1).pdf",
-    "README.md",
-    "Capstone Project",
-    "Extra/Data-Science-2nd-sem.pdf"
+    "README.md"
   ]
 }
