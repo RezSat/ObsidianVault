@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a72c9e942503c0b2",
+        "id": "f48444e51e94e08e",
         "type": "tabs",
         "children": [
           {
-            "id": "c6f41b58770febf4",
+            "id": "02895414d4f1aec9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2103 Linear Algebra/Lecture Notes/Note_01.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Note_01"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -179,11 +177,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "c6f41b58770febf4",
+  "active": "02895414d4f1aec9",
   "lastOpenFiles": [
-    "2106 Analysis of Algorithms/Downloaded resources/MIT6_046JS15_lec01.pdf",
     "2103 Linear Algebra/Lecture Notes/Note_02.pdf",
+    "Extra/Data-Science-2nd-sem.pdf",
     "2103 Linear Algebra/Lecture Notes/Note_01.pdf",
+    "2106 Analysis of Algorithms/Downloaded resources/MIT6_046JS15_lec01.pdf",
     "2103 Linear Algebra/Lecture Notes",
     "2106 Analysis of Algorithms/Logs.md",
     "2106 Analysis of Algorithms/Resources.md",
@@ -199,7 +198,6 @@
     "Extra/Data-Science-hand-book.pdf",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
-    "Capstone Project/Guidelines (1).pdf",
     "README.md"
   ]
 }
