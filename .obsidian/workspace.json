@@ -11,10 +11,14 @@
             "id": "02895414d4f1aec9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Capstone Project/Project Proposal.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Project Proposal"
             }
           }
         ]
@@ -179,6 +183,10 @@
   },
   "active": "02895414d4f1aec9",
   "lastOpenFiles": [
+    "Capstone Project/NoteOnProjectByLecturer.md",
+    "Capstone Project/Project Proposal.md",
+    "Capstone Project/HandbookContent.md",
+    "Capstone Project/Guidelines.pdf",
     "2103 Linear Algebra/Lecture Notes/Note_02.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
     "2103 Linear Algebra/Lecture Notes/Note_01.pdf",
@@ -188,14 +196,9 @@
     "2106 Analysis of Algorithms/Resources.md",
     "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
     "2101 Operating Systems/Linux Command Sheet Cheat.md",
-    "Capstone Project/Guidelines.pdf",
-    "Capstone Project/HandbookContent.md",
-    "Capstone Project/NoteOnProjectByLecturer.md",
-    "Capstone Project/Project Proposal.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "Extra/Data-Science-summary-of-course.pdf",
     "2103 Linear Algebra",
-    "Extra/Data-Science-hand-book.pdf",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
     "README.md"
