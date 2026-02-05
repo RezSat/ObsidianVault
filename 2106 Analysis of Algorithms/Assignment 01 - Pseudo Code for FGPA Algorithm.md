@@ -48,7 +48,8 @@ DEFINED CONSTANTS:
 	D = 1.00
 	E = 0.00
 	
-// Function that will return grade by taking marks m
+// Function that will return grade (defined constant above - grade letter is matched with the constant name.) by taking marks m
+
 FUNCTION GRADE_FROM_MARKS(Mark m):
 	IF m >= 90 RETURN A_plus
 	ELSE IF 80 <= m <= 89 RETURN A
@@ -68,6 +69,8 @@ FUNCTION PROPER_GRADE(Course c):
 	last_attempt = LAST(c.attempts)
 	
 	last_grade = GRADE_FROM_MARKS(last_attempt)
+	
+	// regardless of grade/marks repeated exams get C if last attempt is (D or above, in other words if didn't get an E)
 	
 	IF LENGTH(c.attempts) >= 2 AND last_grade != E THEN
 		RETURN C
