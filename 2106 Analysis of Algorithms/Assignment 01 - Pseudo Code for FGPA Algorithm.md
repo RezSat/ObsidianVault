@@ -17,10 +17,12 @@ Definitions & Assumptions:
 
 - LAST - Assumed function that runs on any list that returns the last element of that given list.
 - LENGTH - A function that returns length of an object (like length of a list)
+- ROUND - A function that rounds a value to a given decimals points
 
 - In code `sum_CPxGP` refers to the part $sum "CP"_i times "GP"_i$
 - In code `total_cp` refers to that N or $sum "CP"_i$
 - Known information is that `total_cp` is always Non-Zero (`total_cp > 0`) since N never be 0. (mentioned to avoid dividing by zero)
+- Handbook rounded the FGPA to 2 decimals
 
 ```
 INPUT: 
@@ -75,7 +77,7 @@ FUNCTION PROPER_GRADE(Course c):
 // Starts of the calculations with the help of above helper function.
 
 MAIN_FUNCTION:
-
+FGPA = 0
 FOR y = 1 TO 4 DO
 	sum_CPxGP[y] = 0
 	total_cp = 0
@@ -88,7 +90,9 @@ FOR y = 1 TO 4 DO
 	END FOR
 	
 	year_GPA[y] = sum_CPxGP[y] / total_cp[y]
-
-	
+	FGPA = FGPA + (year_weight[y] * year_GPA[y])
+END FOR
+RETURN ROUND(FGPA, 2)
+ 	
 ```
 
