@@ -4,11 +4,12 @@
 
 **Algorithm:**
 
-Definitions: 
+Definitions & Assumptions: 
 - Each course will have two properties:
 	- credits (numerical value), 
-	- attempts (list - where the last one is the most recent)
-- Each attempt has a grade (or marks)
+	- attempts (list of numerical marks of each attempt - where the last one is the most recent)
+- LAST - Assumed function that runs on any list that returns the last element of that given list.
+- LENGTH - A function that returns length of an object (like length of a list)
 
 ```
 INPUT: 
@@ -47,6 +48,20 @@ FUNCTION GRADE_FROM_MARKS(m):
 	ELSE RETURN E
 
 // Function to account the repated cases	
-FUNCTION PROPER_GRADE
+FUNCTION PROPER_GRADE(Course c):
+	last_attempt = LAST(c.attempts)
+	
+	last_grade = GRADE_FROM_MARKS(last_attempt)
+	
+	IF LENGTH(c.attempts) >= 2 AND last_grade != E THEN
+		RETURN C
+	ELSE
+		RETURN last_grade
+		
+// Starts of the calculations with the help of above helper function.
+
+MAIN_FUNCTION:
+
+FOR y = 1
 ```
 
