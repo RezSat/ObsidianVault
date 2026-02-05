@@ -4,6 +4,8 @@
 
 **Algorithm:**
 
+$"GPA" = (sum "CP"_i times "GP"_i)/ (sum "CP"_i)$
+
 Definitions & Assumptions: 
 - Each course will have two properties:
 	- credits (numerical value), 
@@ -11,14 +13,19 @@ Definitions & Assumptions:
 - LAST - Assumed function that runs on any list that returns the last element of that given list.
 - LENGTH - A function that returns length of an object (like length of a list)
 
+- In code `sumCPxGP` refers to the part $sum "CP"_i times "GP"_i$
+
 ```
 INPUT: 
 	For each year y in (1,2,3,4):
 		Courses[y] = list of GPA courses taken in year y
 		
 DEFINED CONSTANTS:
-	year_weight[1, 2] = 0.2
-	year_weight[3, 4] = 0.2
+	year_weight[1] = 0.2
+	year_weight[2] = 0.2
+	year_weight[3] = 0.3
+	year_weight[4] = 0.3
+	
 	A_plus = 4.00
 	A = 4.00
 	A_minus = 3.70
