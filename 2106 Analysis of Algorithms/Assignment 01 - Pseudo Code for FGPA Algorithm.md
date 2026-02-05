@@ -45,6 +45,8 @@ FUNCTION GRADE_FROM_MARKS(m):
 	ELSE IF 40 <= m <= 44 RETURN D_plus
 	ELSE IF 30 <= m <= 39 RETURN D
 	ELSE RETURN E
-	
+
+// Function to account the repated cases	
+FUNCTION PROPER_GRADE
 ```
 
