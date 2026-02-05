@@ -11,10 +11,12 @@
             "id": "31f79e57ed46c125",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Calculus/A Collection of Problems in Differential Calculus.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "A Collection of Problems in Differential Calculus"
             }
           }
         ]
@@ -179,6 +181,8 @@
   },
   "active": "5d47942717d150c4",
   "lastOpenFiles": [
+    "Reverse Engineering",
+    "Calculus/A Collection of Problems in Differential Calculus.pdf",
     "Calculus",
     "Capstone Project/Guidelines.pdf",
     "Capstone Project/Project Proposal.md",
@@ -194,8 +198,6 @@
     "2106 Analysis of Algorithms/Downloaded resources/Introduction-to-Analysis-of-Algorithms-2.pdf",
     "2101 Operating Systems/Linux Command Sheet Cheat.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
-    "Extra/Data-Science-summary-of-course.pdf",
-    "2103 Linear Algebra",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
     "README.md"
