@@ -80,7 +80,7 @@ MAIN_FUNCTION:
 FGPA = 0
 FOR y = 1 TO 4 DO
 	sum_CPxGP[y] = 0
-	total_cp = 0
+	total_cp[y] = 0
 	
 	FOR EACH Course c IN Courses[y] DO
 		gp_value = PROPER_GRADE(c)
@@ -93,6 +93,7 @@ FOR y = 1 TO 4 DO
 	FGPA = FGPA + (year_weight[y] * year_GPA[y])
 END FOR
 RETURN ROUND(FGPA, 2)
- 	
+ 
+	
 ```
 
