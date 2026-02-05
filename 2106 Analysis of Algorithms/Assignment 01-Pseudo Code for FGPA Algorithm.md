@@ -1,6 +1,7 @@
 *Index: 23CDS0843*
 
-**Problem**: Write an algorithm in pseudocode to calculate a student’s Final Grade Point Average (FGPA) based on the grades and credit values of all registered GPA courses, in accordance with the GPA calculation rules outlined in Pages 90–91 of the Student Handbook 2023/2024 (Faculty of Computing).
+### Problem: 
+Write an algorithm in pseudocode to calculate a student’s Final Grade Point Average (FGPA) based on the grades and credit values of all registered GPA courses, in accordance with the GPA calculation rules outlined in Pages 90–91 of the Student Handbook 2023/2024 (Faculty of Computing).
 
 
 ### Pre-notes:

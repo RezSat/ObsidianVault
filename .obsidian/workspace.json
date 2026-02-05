@@ -11,12 +11,14 @@
             "id": "be7a987f1e3a1bc0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2106 Analysis of Algorithms/23cds0843.pdf"
+                "file": "2106 Analysis of Algorithms/Assignment 01-Pseudo Code for FGPA Algorithm.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "23cds0843"
+              "icon": "lucide-file",
+              "title": "Assignment 01-Pseudo Code for FGPA Algorithm"
             }
           }
         ]
@@ -179,9 +181,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d47942717d150c4",
+  "active": "be7a987f1e3a1bc0",
   "lastOpenFiles": [
-    "2106 Analysis of Algorithms/23cds0843.pdf",
     "2106 Analysis of Algorithms/23cds0843.pdf",
     "2106 Analysis of Algorithms/Assignment 01-Pseudo Code for FGPA Algorithm.md",
     "2106 Analysis of Algorithms/Resources.md",
