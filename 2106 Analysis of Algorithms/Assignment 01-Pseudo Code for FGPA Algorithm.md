@@ -3,12 +3,14 @@
 
 **Algorithm:**
 
-```
 Definitions: 
-	- Each course will have two properties:
-		* credits (numerical value), 
-		* attempts (list - where the last one is the most recent)
-		- Each attempt has a grade (or marks)
+- Each course will have two properties:
+	- credits (numerical value), 
+	- attempts (list - where the last one is the most recent)
+- Each attempt has a grade (or marks)
+
+```
+
 INPUT: 
 	For each year y in (1,2,3,4):
 		Courses[y] = list of GPA courses taken in year y
@@ -31,6 +33,18 @@ DEFINED CONSTANTS:
 	
 // Function that will return grade by taking marks m
 FUNCTION GRADE_FROM_MARKS(m):
-	IF m >= 90 RETURN 
+	IF m >= 90 RETURN A_plus
+	ELSE IF 80 <= m <= 89 RETURN A
+	ELSE IF 75 <= m <= 79 RETURN A_minus
+	ELSE IF 70 <= m <= 74 RETURN B_plus
+	ELSE IF 65 <= m <= 69 RETURN B
+	ELSE IF 60 <= m <= 64 RETURN B_minus
+	ELSE IF 55 <= m <= 59 RETURN C_plus
+	ELSE IF 50 <= m <= 54 RETURN C
+	ELSE IF 45 <= m <= 49 RETURN C_minus
+	ELSE IF 40 <= m <= 44 RETURN D_plus
+	ELSE IF 30 <= m <= 39 RETURN D
+	ELSE RETURN E
+	
 ```
 
