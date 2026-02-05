@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2106 Analysis of Algorithms/Logs.md",
+                "file": "2106 Analysis of Algorithms/Assignment 01-Pseudo Code for FGPA Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logs"
+              "title": "Assignment 01-Pseudo Code for FGPA Algorithm"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bb705362a70a2a4d",
@@ -199,7 +200,7 @@
     "Capstone Project/HandbookContent.md",
     "2103 Linear Algebra/Lecture Notes/Note_02.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
-    "2106 Analysis of Algorithms/Logs.md",
+    "2106 Analysis of Algorithms/Assignment 01-Pseudo Code for FGPA Algorithm.md",
     "2106 Analysis of Algorithms/Resources.md",
     "README.md"
   ]
