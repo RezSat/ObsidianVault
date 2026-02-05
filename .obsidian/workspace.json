@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "97c37891912fc206",
+        "id": "40acec01fb694f1c",
         "type": "tabs",
         "children": [
           {
-            "id": "31f79e57ed46c125",
+            "id": "c479ddec2f40cc36",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Calculus/A Collection of Problems in Differential Calculus.pdf"
+                "file": "2106 Analysis of Algorithms/Logs.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "A Collection of Problems in Differential Calculus"
+              "icon": "lucide-file",
+              "title": "Logs"
             }
           }
         ]
@@ -179,12 +181,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d47942717d150c4",
+  "active": "c479ddec2f40cc36",
   "lastOpenFiles": [
+    "2104 Object Oriented Programming/Procedural Languages.md",
+    "2104 Object Oriented Programming/Java.md",
+    "2103 Linear Algebra/Lecture Notes/Note_01.pdf",
+    "2101 Operating Systems/Linux Command Sheet Cheat.md",
+    "Extra/Data-Science-hand-book.pdf",
+    "Calculus/A Collection of Problems in Differential Calculus.pdf",
     "Pathology",
     "Genomics",
     "Reverse Engineering",
-    "Calculus/A Collection of Problems in Differential Calculus.pdf",
     "Calculus",
     "Capstone Project/Guidelines.pdf",
     "Capstone Project/Project Proposal.md",
@@ -192,14 +199,8 @@
     "Capstone Project/HandbookContent.md",
     "2103 Linear Algebra/Lecture Notes/Note_02.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
-    "2103 Linear Algebra/Lecture Notes/Note_01.pdf",
-    "2106 Analysis of Algorithms/Downloaded resources/MIT6_046JS15_lec01.pdf",
-    "2103 Linear Algebra/Lecture Notes",
     "2106 Analysis of Algorithms/Logs.md",
     "2106 Analysis of Algorithms/Resources.md",
-    "2101 Operating Systems/Linux Command Sheet Cheat.md",
-    "2104 Object Oriented Programming/Java.md",
-    "2104 Object Oriented Programming/Procedural Languages.md",
     "README.md"
   ]
 }
