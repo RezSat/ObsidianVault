@@ -3,7 +3,7 @@
 ### Problem: 
 Write an algorithm in pseudocode to calculate a student’s Final Grade Point Average (FGPA) based on the grades and credit values of all registered GPA courses, in accordance with the GPA calculation rules outlined in Pages 90–91 of the Student Handbook 2023/2024 (Faculty of Computing).
 
-
+---
 ### Pre-notes:
 
 In the handbook it defines **N** as the **total number of credits assigned per year**. so this is simply means
@@ -14,21 +14,29 @@ In the handbook it defines **N** as the **total number of credits assigned per y
 
 **$"FGPA"=sum_(j=1)^4 (a_j times P_j)$**
 
+---
 ### Definitions & Assumptions: 
 
 - Each **COURSE** will have two properties:
 	- *credits* (numerical value), 
 	- *attempts* (list of numerical marks of each attempt - where the last one is the most recent)
 
+
 - **LAST** - Assumed function that runs on any list that returns the last element of that given list.
 - **LENGTH** - A function that returns length of an object (like length of a list)
 - **ROUND** - A function that rounds a value to a given decimals points
+
 
 - In code **`sum_CPxGP`** refers to the part **$sum "CP"_i times "GP"_i$**
 - In code **`total_cp`** refers to that N or **$sum "CP"_i$**
 - Known information is that **`total_cp`** is always **Non-Zero** (`total_cp > 0`) since N never be 0. (mentioned to avoid dividing by zero)
 - Handbook rounded the FGPA to 2 decimals
 
+<div class="page-break" style="page-break-before: always;"></div>
+
+
+###
+---
 ## ALGORITHM:
 
 ```
@@ -106,6 +114,5 @@ RETURN ROUND(FGPA, 2)
  
 ```
 
-[^1].
-
-[^1]: I wrote & compiled this document with Typst (a LaTex alternative): [typst.app](https://typst.app/)
+---
+Wrote & compiled this document with Typst (a LaTex alternative): [typst.app](https://typst.app/)

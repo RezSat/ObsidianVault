@@ -11,14 +11,12 @@
             "id": "be7a987f1e3a1bc0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2106 Analysis of Algorithms/Assignment 01-Pseudo Code for FGPA Algorithm.md",
-                "mode": "source",
-                "source": false
+                "file": "2106 Analysis of Algorithms/23cds0843.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Assignment 01-Pseudo Code for FGPA Algorithm"
+              "icon": "lucide-file-text",
+              "title": "23cds0843"
             }
           }
         ]
@@ -177,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +192,9 @@
   },
   "active": "be7a987f1e3a1bc0",
   "lastOpenFiles": [
+    "2106 Analysis of Algorithms/Assignment 01.md",
+    "2106 Analysis of Algorithms/Assignment 01.pdf",
     "2106 Analysis of Algorithms/23cds0843.pdf",
-    "2106 Analysis of Algorithms/Assignment 01-Pseudo Code for FGPA Algorithm.md",
     "2106 Analysis of Algorithms/Resources.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
     "2104 Object Oriented Programming/Java.md",
