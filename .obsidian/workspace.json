@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f48444e51e94e08e",
+        "id": "97c37891912fc206",
         "type": "tabs",
         "children": [
           {
-            "id": "02895414d4f1aec9",
+            "id": "31f79e57ed46c125",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Capstone Project/Guidelines.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Guidelines"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -179,12 +177,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "02895414d4f1aec9",
+  "active": "5d47942717d150c4",
   "lastOpenFiles": [
+    "Calculus",
+    "Capstone Project/Guidelines.pdf",
     "Capstone Project/Project Proposal.md",
     "Capstone Project/NoteOnProjectByLecturer.md",
     "Capstone Project/HandbookContent.md",
-    "Capstone Project/Guidelines.pdf",
     "2103 Linear Algebra/Lecture Notes/Note_02.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
     "2103 Linear Algebra/Lecture Notes/Note_01.pdf",
