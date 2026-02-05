@@ -4,6 +4,10 @@
 
 **Algorithm:**
 
+Pre notes: In the handbook it defines **N** as the **total number of credits assigned per year**. so this is simply means
+
+$N=sum_(i=1)^n "CP"_i$
+
 $"GPA" = (sum "CP"_i times "GP"_i)/ (sum "CP"_i)$
 
 Definitions & Assumptions: 
