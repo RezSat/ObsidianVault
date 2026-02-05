@@ -10,7 +10,6 @@ Definitions:
 - Each attempt has a grade (or marks)
 
 ```
-
 INPUT: 
 	For each year y in (1,2,3,4):
 		Courses[y] = list of GPA courses taken in year y
