@@ -10,6 +10,8 @@ $N=sum_(i=1)^n "CP"_i$
 
 $"GPA" = (sum "CP"_i times "GP"_i)/ (sum "CP"_i)$
 
+$"FGPA"=sum_(j=1)^4 (a_j times P_j)$
+
 Definitions & Assumptions: 
 - Each course will have two properties:
 	- credits (numerical value), 
