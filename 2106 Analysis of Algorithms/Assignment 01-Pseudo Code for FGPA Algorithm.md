@@ -81,6 +81,7 @@ FUNCTION PROPER_GRADE(Course c):
 // Starts of the calculations with the help of above helper function.
 
 MAIN_FUNCTION:
+
 FGPA = 0
 FOR y = 1 TO 4 DO
 	sum_CPxGP[y] = 0
@@ -98,6 +99,5 @@ FOR y = 1 TO 4 DO
 END FOR
 RETURN ROUND(FGPA, 2)
  
-	
 ```
 
