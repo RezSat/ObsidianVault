@@ -14,11 +14,13 @@ Definitions & Assumptions:
 - Each course will have two properties:
 	- credits (numerical value), 
 	- attempts (list of numerical marks of each attempt - where the last one is the most recent)
+
 - LAST - Assumed function that runs on any list that returns the last element of that given list.
 - LENGTH - A function that returns length of an object (like length of a list)
 
 - In code `sum_CPxGP` refers to the part $sum "CP"_i times "GP"_i$
 - In code `total_cp` refers to that N or $sum "CP"_i$
+- Known information is that `total_cp` is always Non-Zero (`total_cp > 0`) since N never be 0. (mentioned to avoid dividing by zero)
 
 ```
 INPUT: 
@@ -85,8 +87,8 @@ FOR y = 1 TO 4 DO
 		total_cp[y] = total_cp[y] + c.credits
 	END FOR
 	
-	IF total_cp[y] == 0 THEN
-		year_gpa[y] = 0 //
+	year_GPA[y] = sum_CPxGP[y] / total_cp[y]
+
 	
 ```
 
