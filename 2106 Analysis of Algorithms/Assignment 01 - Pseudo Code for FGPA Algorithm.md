@@ -4,7 +4,7 @@
 
 **Algorithm:**
 
-Pre notes: In the handbook it defines **N** as the **total number of credits assigned per year**. so this is simply means
+Pre-notes: In the handbook it defines **N** as the **total number of credits assigned per year**. so this is simply means
 
 $N=sum_(i=1)^n "CP"_i$
 
@@ -17,7 +17,8 @@ Definitions & Assumptions:
 - LAST - Assumed function that runs on any list that returns the last element of that given list.
 - LENGTH - A function that returns length of an object (like length of a list)
 
-- In code `sumCPxGP` refers to the part $sum "CP"_i times "GP"_i$
+- In code `sum_CPxGP` refers to the part $sum "CP"_i times "GP"_i$
+- In code `total_cp` refers to that N or $sum "CP"_i$
 
 ```
 INPUT: 
@@ -44,7 +45,7 @@ DEFINED CONSTANTS:
 	E = 0.00
 	
 // Function that will return grade by taking marks m
-FUNCTION GRADE_FROM_MARKS(m):
+FUNCTION GRADE_FROM_MARKS(Mark m):
 	IF m >= 90 RETURN A_plus
 	ELSE IF 80 <= m <= 89 RETURN A
 	ELSE IF 75 <= m <= 79 RETURN A_minus
@@ -73,6 +74,19 @@ FUNCTION PROPER_GRADE(Course c):
 
 MAIN_FUNCTION:
 
-FOR y = 1
+FOR y = 1 TO 4 DO
+	sum_CPxGP[y] = 0
+	total_cp = 0
+	
+	FOR EACH Course c IN Courses[y] DO
+		gp_value = PROPER_GRADE(c)
+		
+		sum_CPxGP[y] = sum_CPxGP[y] + (c.credits * gp_value)
+		total_cp[y] = total_cp[y] + c.credits
+	END FOR
+	
+	IF total_cp[y] == 0 THEN
+		year_gpa[y] = 0 //
+	
 ```
 
