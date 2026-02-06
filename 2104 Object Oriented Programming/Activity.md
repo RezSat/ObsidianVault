@@ -23,6 +23,9 @@
 	**FINAL OUTPUT:  12 (x is now 12)**
 	
 4. Write a Java program to check whether two numbers are equal and print the result.
+![[Pasted image 20260206095453.png]]
+
+
 5. Write a Java program to check whether a number is between 10 and 20.
 6. Write a Java program to check whether a student has passed or failed.
 	- Pass mark = 50
