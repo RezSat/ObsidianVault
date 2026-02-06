@@ -3,6 +3,7 @@
 	- GPA
 	- Registration number
 	print all values
+	![[Pasted image 20260206094849.png]]
 2. Write a Java program to calculate the area of a rectangle using
 	- length = 8
 	- width = 5
@@ -22,3 +23,7 @@
 	boolean isRaining = false;
 	System.out.println(!isRaining);
 	```
+8. A user can access a system if:
+	- The user is logged in
+	- AND the account is active
+	write a Java program to check this condition
