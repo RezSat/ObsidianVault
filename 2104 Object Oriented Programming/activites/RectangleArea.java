@@ -1,4 +1,4 @@
-public public class RectangleArea {
+public class RectangleArea {
     public static void main(String[] args) {
         int length = 8;
         int width = 5;
@@ -7,7 +7,4 @@ public public class RectangleArea {
 
         System.out.println("Area of the rectangle: " + area);
     }
-}
- {
-    
 }
