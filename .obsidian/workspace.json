@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "15ebb3f874d7a711",
+        "id": "caf883abdb231118",
         "type": "tabs",
         "children": [
           {
-            "id": "3d17c41c01a22b0e",
+            "id": "c2c89840fd1f4a24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "2104 Object Oriented Programming/Activity.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.11.7"
               },
-              "icon": "lucide-file",
-              "title": "Activity"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           }
         ]
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 578.5
   },
   "right": {
     "id": "bb705362a70a2a4d",
@@ -192,11 +190,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "3d17c41c01a22b0e",
+  "active": "c2c89840fd1f4a24",
   "lastOpenFiles": [
+    "2104 Object Oriented Programming/Activity.md",
     "2104 Object Oriented Programming/23cds0843.pdf",
     "2104 Object Oriented Programming/23CDS0843.pdf",
-    "2104 Object Oriented Programming/Activity.md",
     "Pasted image 20260206100426.png",
     "2104 Object Oriented Programming/activites/SystemLogin.java",
     "2104 Object Oriented Programming/activites/SystemAccess.java",
@@ -212,7 +210,6 @@
     "2104 Object Oriented Programming/activites/RectagleArea.java",
     "Pasted image 20260206094944.png",
     "Pasted image 20260206094849.png",
-    "2104 Object Oriented Programming/activites/StudentInfo.class",
     "Capstone Project/Project Proposal.md",
     "2106 Analysis of Algorithms/Assignment 01.md",
     "2106 Analysis of Algorithms/Resources.md",
