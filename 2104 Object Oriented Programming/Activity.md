@@ -8,6 +8,7 @@
 2. Write a Java program to calculate the area of a rectangle using
 	- length = 8
 	- width = 5
+	![[Pasted image 20260206095204.png]]
 3. Given the following code, write final value of x.
 	```
 	int x = 5;
