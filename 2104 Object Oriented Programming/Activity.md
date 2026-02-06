@@ -15,4 +15,10 @@
 	```
 4. Write a Java program to check whether two numbers are equal and print the result.
 5. Write a Java program to check whether a number is between 10 and 20.
-6. Write a Java program to check whether a student has passed or failed
+6. Write a Java program to check whether a student has passed or failed.
+	- Pass mark = 50
+7. What will be the output of the following code?
+	```
+	boolean isRaining = false;
+	System.out.println(!isRaining);
+	```
