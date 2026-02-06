@@ -96,7 +96,7 @@ FUNCTION PROPER_GRADE(Course c):
 	ELSE
 		RETURN last_grade
 		
-// Starts of the calculations with the help of above helper function.
+// Starts of the calculations with the help of above helper functions.
 
 MAIN_FUNCTION:
 
