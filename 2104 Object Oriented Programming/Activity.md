@@ -27,6 +27,9 @@
 
 
 5. Write a Java program to check whether a number is between 10 and 20.
+![[Pasted image 20260206095709.png]]
+
+
 6. Write a Java program to check whether a student has passed or failed.
 	- Pass mark = 50
 7. What will be the output of the following code?
