@@ -11,10 +11,14 @@
             "id": "3d17c41c01a22b0e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2104 Object Oriented Programming/Activity.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Activity"
             }
           }
         ]
@@ -190,6 +194,7 @@
   },
   "active": "3d17c41c01a22b0e",
   "lastOpenFiles": [
+    "2104 Object Oriented Programming/Activity.md",
     "Capstone Project/Project Proposal.md",
     "2106 Analysis of Algorithms/Assignment 01.md",
     "2106 Analysis of Algorithms/Assignment 01.pdf",
