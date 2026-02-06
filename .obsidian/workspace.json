@@ -11,14 +11,12 @@
             "id": "3d17c41c01a22b0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2104 Object Oriented Programming/Activity.md",
-                "mode": "source",
-                "source": false
+                "file": "2104 Object Oriented Programming/23cds0843.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Activity"
+              "icon": "lucide-file-text",
+              "title": "23cds0843"
             }
           }
         ]
@@ -194,7 +192,8 @@
   },
   "active": "3d17c41c01a22b0e",
   "lastOpenFiles": [
-    "2104 Object Oriented Programming/Activity.pdf",
+    "2104 Object Oriented Programming/Activity.md",
+    "2104 Object Oriented Programming/23cds0843.pdf",
     "Pasted image 20260206100426.png",
     "2104 Object Oriented Programming/activites/SystemLogin.java",
     "2104 Object Oriented Programming/activites/SystemAccess.java",
@@ -211,8 +210,6 @@
     "Pasted image 20260206094944.png",
     "Pasted image 20260206094849.png",
     "2104 Object Oriented Programming/activites/StudentInfo.class",
-    "2104 Object Oriented Programming/activites/StudentInfo.java",
-    "2104 Object Oriented Programming/Activity.md",
     "Capstone Project/Project Proposal.md",
     "2106 Analysis of Algorithms/Assignment 01.md",
     "2106 Analysis of Algorithms/Resources.md",
