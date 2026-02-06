@@ -15,3 +15,4 @@
 	```
 4. Write a Java program to check whether two numbers are equal and print the result.
 5. Write a Java program to check whether a number is between 10 and 20.
+6. Write a Java program to check whether a student has passed or failed
