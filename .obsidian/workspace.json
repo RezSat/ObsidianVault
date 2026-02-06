@@ -11,12 +11,14 @@
             "id": "be7a987f1e3a1bc0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2106 Analysis of Algorithms/23cds0843.pdf"
+                "file": "2106 Analysis of Algorithms/Assignment 01.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "23cds0843"
+              "icon": "lucide-file",
+              "title": "Assignment 01"
             }
           }
         ]
@@ -192,9 +194,9 @@
   },
   "active": "be7a987f1e3a1bc0",
   "lastOpenFiles": [
-    "2106 Analysis of Algorithms/Assignment 01.md",
     "2106 Analysis of Algorithms/Assignment 01.pdf",
     "2106 Analysis of Algorithms/23cds0843.pdf",
+    "2106 Analysis of Algorithms/Assignment 01.md",
     "2106 Analysis of Algorithms/Resources.md",
     "2104 Object Oriented Programming/Procedural Languages.md",
     "2104 Object Oriented Programming/Java.md",

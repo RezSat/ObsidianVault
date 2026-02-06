@@ -43,6 +43,8 @@ In the handbook it defines **N** as the **total number of credits assigned per y
 INPUT: 
 	For each year y in (1,2,3,4):
 		Courses[y] = list of GPA courses taken in year y
+
+OUTPUT: FGPA value, rounded to 2 decimal points
 		
 DEFINED CONSTANTS:
 	year_weight[1] = 0.2
@@ -77,6 +79,9 @@ FUNCTION GRADE_FROM_MARKS(Mark m):
 	ELSE IF 40 <= m <= 44 RETURN D_plus
 	ELSE IF 30 <= m <= 39 RETURN D
 	ELSE RETURN E
+
+
+
 
 // Function to account the repated cases	
 FUNCTION PROPER_GRADE(Course c):
@@ -115,4 +120,4 @@ RETURN ROUND(FGPA, 2)
 ```
 
 ---
-Wrote & compiled this document with Typst (a LaTex alternative): [typst.app](https://typst.app/)
+I wrote & compiled this document with Typst (a LaTex alternative): [typst.app](https://typst.app/)
