@@ -4,6 +4,7 @@
 	- Registration number
 	print all values
 	![[Pasted image 20260206094849.png]]
+	![[Pasted image 20260206094944.png]]
 2. Write a Java program to calculate the area of a rectangle using
 	- length = 8
 	- width = 5
