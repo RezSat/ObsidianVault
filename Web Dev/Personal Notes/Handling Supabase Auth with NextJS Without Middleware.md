@@ -97,3 +97,16 @@ Because it’s `SECURITY DEFINER`, the function runs with the privileges of its 
  Also fix my `admin_users` policies (as I don’t need “admins can read admin_users”)
 
 Even with above fix, it’s not very useful to let admins manage the allowlist via normal client queries unless I'm building a UI for that, which I don't.
+
+A safer policy setup:
+- Allow **no direct access** to `admin_users` from the client
+- Use only `is_admin()` to gate other tables
+
+This was then achieved through this code: [[Tutor Management Drop admin privileges]]
+And rely on the `is_admin()` function (security definer) for checks.
+
+That's it now we add something to `(protected)/page.tsx` and add `admin/logout/actions.ts` for logging out.
+
+And Now finally the code at this point looks like this structure:
+![[Pasted image 20260208003324.png]]
+This way is to creating the authentication very easily.
