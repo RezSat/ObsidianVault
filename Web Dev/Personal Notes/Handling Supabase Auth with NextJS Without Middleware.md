@@ -39,4 +39,4 @@ Then coming back to local folder, install shadcn in order to create the login fo
 
 I choose the `login-3` block (https://ui.shadcn.com/blocks/login) I tried using bunx and bun commands to actually add the login-3 but all of them gave me errors so for that installation I simply used `npx shadcn@latest add login-03` and it worked (There is still a missing piece of why bun commands failed)
 
-so I modified the login code a bit as shown in here: ""
+so I modified the login code a bit as shown in here: [[Tutor Management Login Code]]
