@@ -1,4 +1,11 @@
 So I was just starting out to code an backend of a tutor system and want to experiment with new features from NextJS and it turns out from NextJS 16 or something they renamed `middleware.ts` to `proxy.ts`.  The documentation also mentioned the fact that it is actually a last resort and there are alternatives (which I didn't knew until I turn into chatgpt). So basically you don't actually need a middleware (or proxy) or at least not in my case. In my application there is just admin and just make the login page for admin to enter to admin dashboard and that's it.
 
-Start off with nextjs project:
-``
+Start off with NextJS project:
+
+```
+bun create next-app@latest my-app --yes
+cd my-app
+bun dev
+```
+
+Alright so now create a new supabase project ( save the database password somewhere )
