@@ -29,9 +29,9 @@ Now then, we first need these libraries installed
 `bun add @supabase/supabase-js`
 `bun add @supabase/ssr`
 
-Now with these done locally, I created some tables in the supabase with SQL editor with the code mentioned in here: [[Tutor Management Core Schema with RLS - Started (there's  issues)]]
+Now with these done locally, I created some tables in the supabase with SQL editor with the code mentioned in here: [[TM Core Schema with RLS - Started (there's  issues)]]
 
-Then I went to on to Authentication panel and created a new user using "add user" button, copied the user id created and use the code here in the new SQL Editor window: [[Tutor Management Insert Admin]] essentially making the newly created user an admin.
+Then I went to on to Authentication panel and created a new user using "add user" button, copied the user id created and use the code here in the new SQL Editor window: [[TM Insert Admin]] essentially making the newly created user an admin.
 
 Then coming back to local folder, install shadcn in order to create the login form.
 
@@ -39,7 +39,7 @@ Then coming back to local folder, install shadcn in order to create the login fo
 
 I choose the `login-3` block (https://ui.shadcn.com/blocks/login) I tried using bunx and bun commands to actually add the login-3 but all of them gave me errors so for that installation I simply used `npx shadcn@latest add login-03` and it worked (There is still a missing piece of why bun commands failed)
 
-so I modified the login code a bit as shown in here: [[Tutor Management Login Form Code]]
+so I modified the login code a bit as shown in here: [[TM Login Form Code]]
 
 Then my Structure for the admin look like this, as I was not using the middleware/proxy I used `(proteced)` folder to keep the admin pages and use redirects if not authenticated. This is why I think I didn't want a middleware besides this is actually good, as our goal is simply **“protect `/admin` and redirect to `/admin/login` when not logged in”**, the _best_ approach (and the one that avoids running code for every request)
 Create:
@@ -58,8 +58,8 @@ app/
 ```
 This keeps `/admin/login` public, while everything else under `(protected)` is locked.
 
-The Login action code then looks like this : [[Tutor Management Login Action Code]]
-and so the protected admin code therefore looks like this : [[Tutor Management Protect Admin Layout Code]]
+The Login action code then looks like this : [[TM Login Action Code]]
+and so the protected admin code therefore looks like this : [[TM Protect Admin Layout Code]]
 
 Basically once hit the /admin if not authenticated then redirects to Login, however there were few issues while doing this, Issues arose from the original SQL code I ran to create everything in the supabase.
 
@@ -89,7 +89,7 @@ using (public.is_admin());
 ```
 So when `is_admin()` runs, it queries `admin_users` → but **reading `admin_users` triggers RLS** → which calls `is_admin()` again → which queries `admin_users` again → … recursion until stack depth is exceeded.
 
-To fix this I ran then rant this code: [[Tutor Management Fixing Recursive Error Code]]
+To fix this I ran then rant this code: [[TM Fixing Recursive Error Code]]
 Because it’s `SECURITY DEFINER`, the function runs with the privileges of its owner and **does not recurse through RLS** the same way.
 
 > Important: Supabase best practice is also setting `search_path` like above, to avoid security issues.
@@ -102,7 +102,7 @@ A safer policy setup:
 - Allow **no direct access** to `admin_users` from the client
 - Use only `is_admin()` to gate other tables
 
-This was then achieved through this code: [[Tutor Management Drop admin privileges]]
+This was then achieved through this code: [[TM Drop admin privileges]]
 And rely on the `is_admin()` function (security definer) for checks.
 
 That's it now we add something to `(protected)/page.tsx` and add `admin/logout/actions.ts` for logging out.

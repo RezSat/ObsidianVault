@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Dev/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
+                "file": "Web Dev/Snippets/TM Protect Admin Layout Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Handling Supabase Auth with NextJS Without Middleware"
+              "title": "TM Protect Admin Layout Code"
             }
           }
         ],
@@ -218,6 +218,15 @@
   },
   "active": "bed0414fbbc4d434",
   "lastOpenFiles": [
+    "Web Dev/Snippets/Untitled.md",
+    "Web Dev/Snippets/TM Protect Admin Layout Code.md",
+    "Web Dev/Snippets/TM Login Form Code.md",
+    "Web Dev/Snippets/TM Login Action Code.md",
+    "Web Dev/Snippets/TM Insert Admin.md",
+    "Web Dev/Snippets/TM Fixing Recursive Error Code.md",
+    "Web Dev/Snippets/TM Drop admin privileges.md",
+    "Web Dev/Snippets/TM Core Schema with RLS - Started (there's  issues).md",
+    "Web Dev/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
     "Web Dev/Images/Pasted image 20260207235909.png",
     "Web Dev/Images/Pasted image 20260208003242.png",
     "Web Dev/Images",
@@ -226,15 +235,6 @@
     "Web Dev/Images/Pasted image 20260208003226.png",
     "Web Dev/Images/Pasted image 20260208000000.png",
     "Web Dev/Images/Pasted image 20260207235943.png",
-    "Web Dev/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
-    "Web Dev/Snippets/Tutor Management Drop admin privileges.md",
-    "Web Dev/Snippets/Tutor Management Login Action Code.md",
-    "Web Dev/Snippets/Tutor Management Protect Admin Layout Code.md",
-    "Web Dev/Snippets/Tutor Management Login Form Code.md",
-    "Web Dev/Snippets/Tutor Management Core Schema with RLS - Started (there's  issues).md",
-    "Web Dev/Snippets/Tutor Management Insert Admin.md",
-    "Web Dev/Snippets/Untitled.md",
-    "Web Dev/Snippets/Tutor Management Fixing Recursive Error Code.md",
     "Web Dev/Personal Notes",
     "Web Dev/Snippets",
     "Web Dev",
