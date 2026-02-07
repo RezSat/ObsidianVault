@@ -25,3 +25,18 @@ in the utils folder according to the docs, I created these files:
 
 ![[Pasted image 20260208000000.png]]
 Now then, we first need these libraries installed
+
+`bun add @supabase/supabase-js`
+`bun add @supabase/ssr`
+
+Now with these done locally, I created some tables in the supabase with SQL editor with the code mentioned in here: [[Tutor Management Core Schema with RLS - Started (there's  issues)]]
+
+Then I went to on to Authentication panel and created a new user using "add user" button, copied the user id created and use the code here in the new SQL Editor window: [[Tutor Management Insert Admin]] essentially making the newly created user an admin.
+
+Then coming back to local folder, install shadcn in order to create the login form.
+
+`bunx --bun shadcn@latest init`
+
+I choose the `login-3` block (https://ui.shadcn.com/blocks/login) I tried using bunx and bun commands to actually add the login-3 but all of them gave me errors so for that installation I simply used `npx shadcn@latest add login-03` and it worked (There is still a missing piece of why bun commands failed)
+
+so I modified the login code a bit as shown in here: ""

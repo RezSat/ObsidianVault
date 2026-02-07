@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Dev/Notes/Handling Supabase Auth with NextJS Without Middleware.md",
+                "file": "Web Dev/Snippets/Tutor Management Login Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Handling Supabase Auth with NextJS Without Middleware"
+              "title": "Tutor Management Login Code"
             }
           }
         ]
@@ -194,15 +194,17 @@
   },
   "active": "28d98e7733f376b1",
   "lastOpenFiles": [
+    "Web Dev/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
+    "Web Dev/Snippets/Tutor Management Login Code.md",
+    "Web Dev/Snippets/Tutor Management Core Schema with RLS - Started (there's  issues).md",
+    "Web Dev/Snippets/Tutor Management Insert Admin.md",
+    "Web Dev/Snippets/Untitled.md",
     "Pasted image 20260208000000.png",
     "Pasted image 20260207235943.png",
     "Pasted image 20260207235909.png",
     "Web Dev/Snippets/Tutor Management Drop admin previleges.md",
     "Web Dev/Snippets/Tutor Management Fixing Recursive Error Code.md",
-    "Web Dev/Snippets/Tutor Management Insert Admin.md",
-    "Web Dev/Snippets/Tutor Management Core Schema with RLS - Started (there's  issues).md",
-    "Web Dev/Notes/Handling Supabase Auth with NextJS Without Middleware.md",
-    "Web Dev/Notes",
+    "Web Dev/Personal Notes",
     "Web Dev/Snippets",
     "Web Dev",
     "Extra/Semester II- DSTime table_23-24.pdf",
