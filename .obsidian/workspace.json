@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ac2a6dd1c6b5834a",
+        "id": "d108f0aef70c9dfd",
         "type": "tabs",
         "children": [
           {
-            "id": "be2b80a4bf6da2b3",
+            "id": "28d98e7733f376b1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Extra/Semester II- DSTime table_23-24.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Semester II- DSTime table_23-24"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -190,8 +188,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "be2b80a4bf6da2b3",
+  "active": "5d47942717d150c4",
   "lastOpenFiles": [
+    "Experience",
+    "Extra/Semester II- DSTime table_23-24.pdf",
     "2104 Object Oriented Programming/Activity.md",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/activites/Pasted image 20260206100426.png",
@@ -210,7 +210,6 @@
     "2104 Object Oriented Programming/activites/EqualNumbers.java",
     "2104 Object Oriented Programming/activites/RectangleArea.class",
     "2104 Object Oriented Programming/activites/RectangleArea.java",
-    "2104 Object Oriented Programming/activites/RectagleArea.java",
     "Capstone Project/Project Proposal.md",
     "2106 Analysis of Algorithms/Assignment 01.md",
     "2106 Analysis of Algorithms/Resources.md",
