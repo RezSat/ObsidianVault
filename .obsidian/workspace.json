@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a1caf560ef4b7191",
+        "id": "70b767d2f8ebdd9c",
         "type": "tabs",
         "children": [
           {
-            "id": "be44cd1e32a45cd3",
+            "id": "8371a9af9341204a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 449.5
   },
   "right": {
     "id": "bb705362a70a2a4d",
@@ -192,10 +192,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "be44cd1e32a45cd3",
+  "active": "8371a9af9341204a",
   "lastOpenFiles": [
-    "Web Dev/Snippets/Tutor Management Login Code.md",
+    "Web Dev/Snippets/Tutor Management Login Action Code.md",
+    "Web Dev/Snippets/Tutor Management Protect Admin Layout Code.md",
     "Web Dev/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
+    "Web Dev/Snippets/Tutor Management Login Form Code.md",
     "Web Dev/Snippets/Tutor Management Core Schema with RLS - Started (there's  issues).md",
     "Web Dev/Snippets/Tutor Management Insert Admin.md",
     "Web Dev/Snippets/Untitled.md",

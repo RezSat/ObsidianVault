@@ -39,6 +39,61 @@ Then coming back to local folder, install shadcn in order to create the login fo
 
 I choose the `login-3` block (https://ui.shadcn.com/blocks/login) I tried using bunx and bun commands to actually add the login-3 but all of them gave me errors so for that installation I simply used `npx shadcn@latest add login-03` and it worked (There is still a missing piece of why bun commands failed)
 
-so I modified the login code a bit as shown in here: [[Tutor Management Login Code]]
+so I modified the login code a bit as shown in here: [[Tutor Management Login Form Code]]
 
-Then my Structure for the admin look like this, as I was not using the middleware/proxy I used `(proteced)` folder to keep the admin pages and use redirects if not authenticated. This is why I think I didn't want a middleware besides this is actually good because
+Then my Structure for the admin look like this, as I was not using the middleware/proxy I used `(proteced)` folder to keep the admin pages and use redirects if not authenticated. This is why I think I didn't want a middleware besides this is actually good, as our goal is simply **“protect `/admin` and redirect to `/admin/login` when not logged in”**, the _best_ approach (and the one that avoids running code for every request)
+Create:
+```
+app/
+  admin/
+	layout.tsx
+    login/
+      actions.ts
+      page.tsx
+    (protected)/
+      layout.tsx
+      page.tsx
+      ...other admin pages...
+
+```
+This keeps `/admin/login` public, while everything else under `(protected)` is locked.
+
+The Login action code then looks like this : [[Tutor Management Login Action Code]]
+and so the protected admin code therefore looks like this : [[Tutor Management Protect Admin Layout Code]]
+
+Basically once hit the /admin if not authenticated then redirects to Login, however there were few issues while doing this, Issues arose from the original SQL code I ran to create everything in the supabase.
+
+`54001 stack depth limit exceeded` on `rpc("is_admin")` is a **Postgres recursion / deep call stack** problem, and it’s coming from my RLS + function interaction.
+This happened because I wrote:
+```
+create or replace function public.is_admin()
+returns boolean
+stable
+as $$
+  select exists (
+    select 1
+    from public.admin_users au
+    where au.user_id = auth.uid()
+  );
+$$;
+
+```
+
+…and my RLS policy on `admin_users` is:
+```
+create policy "Admins can read admin_users"
+on public.admin_users for select
+to authenticated
+using (public.is_admin());
+
+```
+So when `is_admin()` runs, it queries `admin_users` → but **reading `admin_users` triggers RLS** → which calls `is_admin()` again → which queries `admin_users` again → … recursion until stack depth is exceeded.
+
+To fix this I ran then rant this code: [[Tutor Management Fixing Recursive Error Code]]
+Because it’s `SECURITY DEFINER`, the function runs with the privileges of its owner and **does not recurse through RLS** the same way.
+
+> Important: Supabase best practice is also setting `search_path` like above, to avoid security issues.
+ 
+ Also fix my `admin_users` policies (as I don’t need “admins can read admin_users”)
+
+Even with above fix, it’s not very useful to let admins manage the allowlist via normal client queries unless I'm building a UI for that, which I don't.
