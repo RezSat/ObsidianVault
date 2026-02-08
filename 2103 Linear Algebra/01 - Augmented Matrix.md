@@ -4,19 +4,20 @@
 An **augmented matrix** is the coefficient matrix with the constants appended as the last column.
 
 For a system
-\[
-a_{11}x_1+\cdots+a_{1n}x_n=b_1\\
+$$ 
+\
+a_{11}x_1+ \cdots+a_{1n}x_n=b_1\\
 \vdots\\
 a_{m1}x_1+\cdots+a_{mn}x_n=b_m
-\]
 the augmented matrix is:
-\[
+
 \left[\begin{array}{cccc|c}
 a_{11}&a_{12}&\cdots&a_{1n}&b_1\\
 \vdots&\vdots&&\vdots&\vdots\\
 a_{m1}&a_{m2}&\cdots&a_{mn}&b_m
 \end{array}\right]
-\]
+\
+$$
 
 ## Why we use it
 - Keeps bookkeeping clean.
