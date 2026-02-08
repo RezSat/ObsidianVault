@@ -11,10 +11,14 @@
             "id": "4fa37d33a7fecef5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2103 Linear Algebra/Solving the systems of linear equations.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Solving the systems of linear equations"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5
+    "width": 286.5
   },
   "right": {
     "id": "bb705362a70a2a4d",
@@ -173,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,8 +192,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d47942717d150c4",
+  "active": "4fa37d33a7fecef5",
   "lastOpenFiles": [
+    "2103 Linear Algebra/Solving the systems of linear equations.md",
     "Web Development/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
     "Web Development/Images/Pasted image 20260207235909.png",
     "Web Development/Images/Pasted image 20260208003324.png",
