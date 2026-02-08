@@ -9,13 +9,13 @@ $$
 cases(
   a_(11) x_1 + ... + a_(1n) x_n = b_1,
   dots.v,
-  a_(m1) x_1 + ... + a_(mn) x_n = b_m,
+  a_(m 1) x_1 + ... + a_(m n) x_n = b_m,
 )
 $$
 
 The augmented matrix is:
 
-#let n-col = 4 // set this to the number of coefficient columns (n)
+$#let n-col = 4 // set this to the number of coefficient columns (n)
 
 $$
 mat(
