@@ -16,17 +16,17 @@ $$
 The augmented matrix is:
 
 $$
-#let  = 4 // set this to the number of coefficient columns (n)
+#let  n = 4 // set this to the number of coefficient columns (n)
 $$
 
 $$
 mat(
   delim: "[",
-  augment: n-col,
+  augment: n,
 
   a_(11), a_(12), ..., a_(1n), b_1;
   dots.v,  dots.v,  dots.down, dots.v, dots.v;
-  a_(m1),  a_(m2),  ...,      a_(mn), b_m;
+  a_(m 1),  a_(m 2),  ...,      a_(m n), b_m;
 )
 $$
 
