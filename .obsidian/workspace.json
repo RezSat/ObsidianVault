@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "27ecfd9667e25799",
+        "id": "51724516bad9fead",
         "type": "tabs",
         "children": [
           {
-            "id": "a5ecd6d3d7eb6dae",
+            "id": "5c4b2a6293414ed7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Reverse Engineering/reversing-for-everyone.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "reversing-for-everyone"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -189,7 +187,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "a5ecd6d3d7eb6dae",
+  "active": "eed7b585c1a6c070",
   "lastOpenFiles": [
     "Projects/Ceylonicus/Re-Implementation of Ceylonicus in C.md",
     "Reverse Engineering/reversing-for-everyone.pdf",
