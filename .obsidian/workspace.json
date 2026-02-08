@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2103 Linear Algebra/01 - Augmented Matrix.md",
+                "file": "2103 Linear Algebra/07 - Reading Solutions (Unique, None, Infinite).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Augmented Matrix"
+              "title": "07 - Reading Solutions (Unique, None, Infinite)"
             }
           }
         ]
@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,9 +191,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "8968c0c1f3e01d65",
+  "active": "eed7b585c1a6c070",
   "lastOpenFiles": [
-    "2103 Linear Algebra/00 - Index - Solving Linear Systems.md",
     "2103 Linear Algebra/10 - Common Mistakes and Checks.md",
     "2103 Linear Algebra/09 - Choosing the Best Next Row Operation.md",
     "2103 Linear Algebra/08 - Row Reduction Shortcuts and Tricks.md",
@@ -205,6 +203,7 @@
     "2103 Linear Algebra/03 - Pivots and Leading Entries.md",
     "2103 Linear Algebra/02 - Elementary Row Operations.md",
     "2103 Linear Algebra/01 - Augmented Matrix.md",
+    "2103 Linear Algebra/00 - Index - Solving Linear Systems.md",
     "Web Development/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
     "Web Development/Images/Pasted image 20260207235909.png",
     "Web Development/Images/Pasted image 20260208003324.png",
