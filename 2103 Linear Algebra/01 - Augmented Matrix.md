@@ -5,7 +5,7 @@ An **augmented matrix** is the coefficient matrix with the constants appended as
 
 For a system
 
-the augmented matrix is:
+![[Pasted image 20260208193327.png]]
 
 ## Why we use it
 - Keeps bookkeeping clean.

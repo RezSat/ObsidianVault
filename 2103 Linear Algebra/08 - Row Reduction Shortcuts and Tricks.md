@@ -8,13 +8,13 @@ Row swaps are cheap. Getting a pivot that keeps arithmetic small is a win.
 
 ## 3) “Kill with the pivot” formula
 To eliminate an entry \(a\) under pivot \(p\) in the same column:
-\[
+$$
 R_{\text{target}} \leftarrow R_{\text{target}} - \frac{a}{p} R_{\text{pivot}}
-\]
-If \(p=1\), it becomes:
-\[
+$$
+$"If" (p=1), "it becomes:"$
+$$
 R_{\text{target}} \leftarrow R_{\text{target}} - aR_{\text{pivot}}
-\]
+$$
 
 ## 4) Combine steps (when safe)
 Instead of:
@@ -31,7 +31,7 @@ If two rows differ only by signs or one term, subtracting them can instantly eli
 
 ## 7) Quick self-checks
 After each pivot step:
-- pivot column should become \([0,0,\dots,1,\dots,0]^T\) (eventually in RREF),
+- pivot column should become $([0,0,\dots,1,\dots,0]^T)$ (eventually in RREF),
 - numbers shouldn’t explode; if they do, consider a different pivot swap.
 
 Companion: [[09 - Choosing the Best Next Row Operation]].

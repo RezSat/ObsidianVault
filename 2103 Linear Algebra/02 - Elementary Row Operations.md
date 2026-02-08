@@ -4,19 +4,17 @@
 These do NOT change the solution set of the system:
 
 1) Swap rows  
-\[
-R_i \leftrightarrow R_j
-\]
+$$R_i \leftrightarrow R_j$$
 
 2) Scale a row by a nonzero number  
-\[
+$$
 R_i \leftarrow cR_i,\quad c\neq 0
-\]
+$$
 
 3) Replace a row by itself plus a multiple of another row  
-\[
+$$
 R_i \leftarrow R_i + cR_j
-\]
+$$
 
 ## Why they’re valid (intuition)
 They match legal equation operations:

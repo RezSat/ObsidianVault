@@ -21,10 +21,10 @@ Both can zero the target entry. Prefer:
 - and avoids introducing negatives/fractions unnecessarily.
 
 Rule of thumb:
-To kill \(a\) under pivot 1:
-\[
+To kill $(a)$ under pivot 1:
+$$
 R_{\text{target}} \leftarrow R_{\text{target}} - aR_{\text{pivot}}
-\]
-because it directly makes \(a-a=0\).
+$$
+because it directly makes $(a-a=0).$
 
 Related: [[08 - Row Reduction Shortcuts and Tricks]].
