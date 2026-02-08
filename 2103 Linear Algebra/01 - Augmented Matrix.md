@@ -15,7 +15,9 @@ $$
 
 The augmented matrix is:
 
-$#let n-col = 4 // set this to the number of coefficient columns (n)
+$$
+#let  = 4 // set this to the number of coefficient columns (n)
+$$
 
 $$
 mat(
