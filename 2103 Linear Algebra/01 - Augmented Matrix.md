@@ -5,6 +5,8 @@ An **augmented matrix** is the coefficient matrix with the constants appended as
 
 For a system
 
+the augmented matrix is:
+
 $$
 cases(
   a_(1 1) x_1 + ... + a_(1 n) x_n = b_1,
@@ -12,17 +14,16 @@ cases(
   a_(m 1) x_1 + ... + a_(m n) x_n = b_m,
 )
 
-"the augmented matrix is:"
-
 mat(
   delim: "[",
-  augment: 4,
+  augment: 4,  // replace 4 with your actual n (must be an integer)
 
   a_(1 1), a_(1 2), ..., a_(1 n), b_1;
-  dots.v,  dots.v,  dots.down,  dots.v, dots.v;
+  dots.v,  dots.v,  dots.down, dots.v, dots.v;
   a_(m 1), a_(m 2), ..., a_(m n), b_m;
 )
 $$
+
 
 
 
