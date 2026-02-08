@@ -7,26 +7,20 @@ For a system
 
 $$
 cases(
-  a_(11) x_1 + ... + a_(1n) x_n = b_1,
+  a_(1 1) x_1 + ... + a_(1 n) x_n = b_1,
   dots.v,
   a_(m 1) x_1 + ... + a_(m n) x_n = b_m,
 )
-$$
 
-The augmented matrix is:
+"the augmented matrix is:"
 
-$$
-#let  n = 4 // set this to the number of coefficient columns (n)
-$$
-
-$$
 mat(
   delim: "[",
-  augment: n,
+  augment: 4,
 
-  a_(11), a_(12), ..., a_(1n), b_1;
-  dots.v,  dots.v,  dots.down, dots.v, dots.v;
-  a_(m 1),  a_(m 2),  ...,      a_(m n), b_m;
+  a_(1 1), a_(1 2), ..., a_(1 n), b_1;
+  dots.v,  dots.v,  dots.down,  dots.v, dots.v;
+  a_(m 1), a_(m 2), ..., a_(m n), b_m;
 )
 $$
 
