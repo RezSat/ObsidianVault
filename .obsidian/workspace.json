@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "713ccea211f7a63d",
+        "id": "df4fd05d51e88e8d",
         "type": "tabs",
         "children": [
           {
-            "id": "68b1d220753f863a",
+            "id": "4fa37d33a7fecef5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Dev/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Handling Supabase Auth with NextJS Without Middleware"
+              "title": "New tab"
             }
           }
         ]
@@ -191,28 +187,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "eed7b585c1a6c070",
+  "active": "5d47942717d150c4",
   "lastOpenFiles": [
-    "Web Dev/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
-    "Web Dev/Images/Pasted image 20260207235909.png",
-    "Web Dev/Images/Pasted image 20260208003324.png",
-    "Web Dev/Images/Pasted image 20260208003248.png",
-    "Web Dev/Snippets/TM Protect Admin Layout Code.md",
+    "Web Development/Personal Notes/Handling Supabase Auth with NextJS Without Middleware.md",
+    "Web Development/Images/Pasted image 20260207235909.png",
+    "Web Development/Images/Pasted image 20260208003324.png",
+    "Web Development/Images/Pasted image 20260208003248.png",
+    "Web Development/Snippets/TM Protect Admin Layout Code.md",
     "Web Dev/Snippets/Untitled.md",
-    "Web Dev/Snippets/TM Login Form Code.md",
-    "Web Dev/Snippets/TM Login Action Code.md",
-    "Web Dev/Snippets/TM Insert Admin.md",
-    "Web Dev/Snippets/TM Fixing Recursive Error Code.md",
-    "Web Dev/Snippets/TM Drop admin privileges.md",
-    "Web Dev/Snippets/TM Core Schema with RLS - Started (there's  issues).md",
-    "Web Dev/Images/Pasted image 20260208003242.png",
-    "Web Dev/Images",
-    "Web Dev/Images/Pasted image 20260208003226.png",
-    "Web Dev/Images/Pasted image 20260208000000.png",
-    "Web Dev/Images/Pasted image 20260207235943.png",
-    "Web Dev/Personal Notes",
-    "Web Dev/Snippets",
-    "Web Dev",
+    "Web Development/Snippets/TM Login Form Code.md",
+    "Web Development/Snippets/TM Login Action Code.md",
+    "Web Development/Snippets/TM Insert Admin.md",
+    "Web Development/Snippets/TM Fixing Recursive Error Code.md",
+    "Web Development/Snippets/TM Drop admin privileges.md",
+    "Web Development/Snippets/TM Core Schema with RLS - Started (there's  issues).md",
+    "Web Development/Images/Pasted image 20260208003242.png",
+    "Web Development/Images",
+    "Web Development/Images/Pasted image 20260208003226.png",
+    "Web Development/Images/Pasted image 20260208000000.png",
+    "Web Development/Images/Pasted image 20260207235943.png",
+    "Web Development/Personal Notes",
+    "Web Development/Snippets",
+    "Web Development",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "2104 Object Oriented Programming/Activity.md",
     "2104 Object Oriented Programming/Java.md",
