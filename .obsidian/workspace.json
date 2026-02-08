@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f19f045c52e26a6e",
+        "id": "27ecfd9667e25799",
         "type": "tabs",
         "children": [
           {
-            "id": "1d50bb24d10b897c",
+            "id": "a5ecd6d3d7eb6dae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Projects/Ceylonicus/Re-Implementation of Ceylonicus in C.md",
-                "mode": "source",
-                "source": false
+                "file": "Reverse Engineering/reversing-for-everyone.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Re-Implementation of Ceylonicus in C"
+              "icon": "lucide-file-text",
+              "title": "reversing-for-everyone"
             }
           }
         ]
@@ -191,9 +189,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "1d50bb24d10b897c",
+  "active": "a5ecd6d3d7eb6dae",
   "lastOpenFiles": [
     "Projects/Ceylonicus/Re-Implementation of Ceylonicus in C.md",
+    "Reverse Engineering/reversing-for-everyone.pdf",
+    "Extra/Semester II- DSTime table_23-24.pdf",
     "Projects/Ceylonicus",
     "Projects",
     "2103 Linear Algebra/09 - Choosing the Best Next Row Operation.md",
@@ -231,13 +231,10 @@
     "Web Development/Personal Notes",
     "Web Development/Snippets",
     "Web Development",
-    "Extra/Semester II- DSTime table_23-24.pdf",
     "2104 Object Oriented Programming/Activity.md",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/23cds0843.pdf",
-    "2104 Object Oriented Programming/23CDS0843.pdf",
     "Capstone Project/Project Proposal.md",
-    "2106 Analysis of Algorithms/Assignment 01.md",
-    "2106 Analysis of Algorithms/Resources.md"
+    "2106 Analysis of Algorithms/Assignment 01.md"
   ]
 }
