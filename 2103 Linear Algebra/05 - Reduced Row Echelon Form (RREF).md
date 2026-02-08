@@ -18,4 +18,6 @@ A matrix is in **reduced row echelon form** if:
 2) Scale pivots to 1.
 3) Zero out entries **above** each pivot.
 
+![[Pasted image 20260208194150.png]]
+
 Workflow file: [[06 - Gauss and Gauss-Jordan (Workflows)]].

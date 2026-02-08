@@ -6,6 +6,7 @@ A matrix is in **row echelon form** if:
 2) Each leading entry (pivot) of a lower row is to the right of the pivot above it.
 3) All entries below each pivot are zero.
 
+![[Pasted image 20260208194129.png]]
 ## Why do REF
 - REF is enough to solve using **back-substitution**.
 - Often faster than full RREF.

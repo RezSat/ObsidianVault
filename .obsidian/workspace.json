@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0e9f6ea55be23797",
+        "id": "9250955751daef00",
         "type": "tabs",
         "children": [
           {
-            "id": "8968c0c1f3e01d65",
+            "id": "2efa993f25450962",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "2103 Linear Algebra/09 - Choosing the Best Next Row Operation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "09 - Choosing the Best Next Row Operation"
             }
           }
         ]
@@ -187,19 +191,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "8968c0c1f3e01d65",
+  "active": "2efa993f25450962",
   "lastOpenFiles": [
+    "2103 Linear Algebra/07 - Reading Solutions (Unique, None, Infinite).md",
+    "2103 Linear Algebra/Images/Pasted image 20260208194232.png",
+    "2103 Linear Algebra/05 - Reduced Row Echelon Form (RREF).md",
+    "2103 Linear Algebra/Images/Pasted image 20260208194150.png",
+    "2103 Linear Algebra/04 - Row Echelon Form (REF).md",
+    "2103 Linear Algebra/Images/Pasted image 20260208194129.png",
+    "2103 Linear Algebra/01 - Augmented Matrix.md",
     "2103 Linear Algebra/00 - Index - Solving Linear Systems.md",
     "2103 Linear Algebra/10 - Common Mistakes and Checks.md",
     "2103 Linear Algebra/09 - Choosing the Best Next Row Operation.md",
     "2103 Linear Algebra/08 - Row Reduction Shortcuts and Tricks.md",
-    "2103 Linear Algebra/07 - Reading Solutions (Unique, None, Infinite).md",
     "2103 Linear Algebra/06 - Gauss and Gauss-Jordan (Workflows).md",
-    "2103 Linear Algebra/05 - Reduced Row Echelon Form (RREF).md",
-    "2103 Linear Algebra/04 - Row Echelon Form (REF).md",
     "2103 Linear Algebra/03 - Pivots and Leading Entries.md",
     "2103 Linear Algebra/02 - Elementary Row Operations.md",
-    "2103 Linear Algebra/01 - Augmented Matrix.md",
     "Pasted image 20260208193441.png",
     "2103 Linear Algebra/Images",
     "2103 Linear Algebra/Images/Pasted image 20260208193327.png",
@@ -218,15 +225,12 @@
     "Web Development/Images/Pasted image 20260208003242.png",
     "Web Development/Images",
     "Web Development/Images/Pasted image 20260208003226.png",
-    "Web Development/Images/Pasted image 20260208000000.png",
-    "Web Development/Images/Pasted image 20260207235943.png",
     "Web Development/Personal Notes",
     "Web Development/Snippets",
     "Web Development",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "2104 Object Oriented Programming/Activity.md",
     "2104 Object Oriented Programming/Java.md",
-    "2104 Object Oriented Programming/activites/Pasted image 20260206100426.png",
     "2104 Object Oriented Programming/23cds0843.pdf",
     "2104 Object Oriented Programming/23CDS0843.pdf",
     "2104 Object Oriented Programming/activites/SystemLogin.java",

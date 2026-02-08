@@ -25,4 +25,6 @@ $$
 $$
 and fewer pivots than variables.
 
+![[Pasted image 20260208194232.png]]
+
 Related: [[05 - Reduced Row Echelon Form (RREF)]], [[10 - Common Mistakes and Checks]].
