@@ -267,11 +267,9 @@ You can paste the following into a new chat verbatim:
 >     - `Token` struct (type, value, start, end)
 
 > - This mirrors my original Python `lexer.py`
->     
-> Next step should be:
-> 
 > - UTF-8 decoding utilities (`utf8.h` / `utf8.c`)
 > - Then `lexer.h` and `lexer.c`
+> - Keywords file to store keywords and some helper function `keywords.c` and `keywords.h`
 >     
 > Please continue mentoring me from **this exact point**.
 

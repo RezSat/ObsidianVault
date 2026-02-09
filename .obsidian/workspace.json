@@ -11,10 +11,14 @@
             "id": "5c4b2a6293414ed7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Ceylonicus/Re-Implementation of Ceylonicus in C.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Re-Implementation of Ceylonicus in C"
             }
           }
         ]
@@ -187,7 +191,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "eed7b585c1a6c070",
+  "active": "5c4b2a6293414ed7",
   "lastOpenFiles": [
     "Projects/Ceylonicus/Re-Implementation of Ceylonicus in C.md",
     "Reverse Engineering/reversing-for-everyone.pdf",
