@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,7 +191,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "dec771326537a77d",
+  "active": "eed7b585c1a6c070",
   "lastOpenFiles": [
     "CheatSheets/08_Model_Interpretability.md",
     "CheatSheets/07_Business_Metrics_ROI.md",
