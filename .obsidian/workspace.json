@@ -187,8 +187,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "dec771326537a77d",
+  "active": "5d47942717d150c4",
   "lastOpenFiles": [
+    "CheatSheets",
     "Untitled.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "Malware Reverse Engineering/Fake Cloudflare Scam.md",
@@ -233,7 +234,6 @@
     "Web Development/Snippets",
     "Web Development",
     "2104 Object Oriented Programming/Activity.md",
-    "2104 Object Oriented Programming/Java.md",
-    "Capstone Project/Project Proposal.md"
+    "2104 Object Oriented Programming/Java.md"
   ]
 }
