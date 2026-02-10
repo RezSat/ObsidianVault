@@ -40,7 +40,9 @@ Fix:
 
 2. Use `chunksize` when reading CSV: `pd.read_csv('big_data.csv', chunksize=10000)`.
 
-❌ Issue: Model is 100% accurate (Overfitting)
-Cause: "Data Leakage." You likely included the target variable (or a proxy for it) in your training features.
 
-Fix: Check if any feature has a 1.0 correlation with the target in [[03_Exploratory_Data_Analysis]].
+> ❌ Issue: Model is 100% accurate (Overfitting)
+
+- Cause: "Data Leakage." You likely included the target variable (or a proxy for it) in your training features.
+
+- Fix: Check if any feature has a 1.0 correlation with the target in [[03_Exploratory_Data_Analysis]].

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99_Troubleshooting.md",
+                "file": "CheatSheets/09_Setup_And_Pip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "99_Troubleshooting"
+              "title": "09_Setup_And_Pip"
             }
           }
         ]
@@ -194,17 +194,17 @@
   },
   "active": "dec771326537a77d",
   "lastOpenFiles": [
-    "CheatSheets/00_Master_Index.md",
-    "99_Troubleshooting.md",
-    "CheatSheets/09_Setup_And_Pip.md",
     "CheatSheets/08_Model_Interpretability.md",
     "CheatSheets/07_Business_Metrics_ROI.md",
     "CheatSheets/06_Advanced_Models.md",
     "CheatSheets/05_Machine_Learning_Basics.md",
     "CheatSheets/04_Statistical_Testing.md",
     "CheatSheets/03_Exploratory_Data_Analysis.md",
-    "CheatSheets/01_Data_Cleaning.md",
     "CheatSheets/02_Feature_Engineering.md",
+    "CheatSheets/01_Data_Cleaning.md",
+    "CheatSheets/00_Master_Index.md",
+    "99_Troubleshooting.md",
+    "CheatSheets/09_Setup_And_Pip.md",
     "Malware Reverse Engineering/Fake Cloudflare Scam.md",
     "CheatSheets",
     "Untitled.md",
