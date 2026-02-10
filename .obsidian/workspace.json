@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CheatSheets/00_Master_Index.md",
+                "file": "CheatSheets/02_Feature_Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_Master_Index"
+              "title": "02_Feature_Engineering"
             }
           }
         ]
@@ -194,10 +194,12 @@
   "active": "dec771326537a77d",
   "lastOpenFiles": [
     "CheatSheets/00_Master_Index.md",
+    "CheatSheets/02_Feature_Engineering.md",
+    "CheatSheets/01_Data_Cleaning.md",
+    "Malware Reverse Engineering/Fake Cloudflare Scam.md",
     "CheatSheets",
     "Untitled.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
-    "Malware Reverse Engineering/Fake Cloudflare Scam.md",
     "Malware Reverse Engineering",
     "Pasted image 20260210140219.png",
     "Pasted image 20260210140208.png",
@@ -236,8 +238,6 @@
     "Web Development/Snippets/TM Core Schema with RLS - Started (there's  issues).md",
     "Web Development/Images",
     "Web Development/Personal Notes",
-    "Web Development/Snippets",
-    "2104 Object Oriented Programming/Activity.md",
-    "2104 Object Oriented Programming/Java.md"
+    "Web Development/Snippets"
   ]
 }
