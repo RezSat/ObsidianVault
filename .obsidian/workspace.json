@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "51724516bad9fead",
+        "id": "babd524b7911db12",
         "type": "tabs",
         "children": [
           {
-            "id": "5c4b2a6293414ed7",
+            "id": "4bd1fe598f6e6f8d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Extra/Semester II- DSTime table_23-24.pdf"
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Semester II- DSTime table_23-24"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -189,11 +191,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "5c4b2a6293414ed7",
+  "active": "4bd1fe598f6e6f8d",
   "lastOpenFiles": [
+    "Pasted image 20260210140219.png",
+    "Pasted image 20260210140208.png",
+    "Untitled.md",
+    "Extra/Semester II- DSTime table_23-24.pdf",
     "Projects/Ceylonicus/Re-Implementation of Ceylonicus in C.md",
     "Reverse Engineering/reversing-for-everyone.pdf",
-    "Extra/Semester II- DSTime table_23-24.pdf",
     "Projects/Ceylonicus",
     "Projects",
     "2103 Linear Algebra/09 - Choosing the Best Next Row Operation.md",
@@ -227,14 +232,12 @@
     "Web Development/Snippets/TM Core Schema with RLS - Started (there's  issues).md",
     "Web Development/Images/Pasted image 20260208003242.png",
     "Web Development/Images",
-    "Web Development/Images/Pasted image 20260208003226.png",
     "Web Development/Personal Notes",
     "Web Development/Snippets",
     "Web Development",
     "2104 Object Oriented Programming/Activity.md",
     "2104 Object Oriented Programming/Java.md",
     "2104 Object Oriented Programming/23cds0843.pdf",
-    "Capstone Project/Project Proposal.md",
-    "2106 Analysis of Algorithms/Assignment 01.md"
+    "Capstone Project/Project Proposal.md"
   ]
 }
