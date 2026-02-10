@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CheatSheets/06_Advanced_Models.md",
+                "file": "99_Troubleshooting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06_Advanced_Models"
+              "title": "99_Troubleshooting"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,17 +192,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "62233088e207c1bb",
+  "active": "dec771326537a77d",
   "lastOpenFiles": [
+    "CheatSheets/00_Master_Index.md",
+    "99_Troubleshooting.md",
+    "CheatSheets/09_Setup_And_Pip.md",
+    "CheatSheets/08_Model_Interpretability.md",
+    "CheatSheets/07_Business_Metrics_ROI.md",
+    "CheatSheets/06_Advanced_Models.md",
     "CheatSheets/05_Machine_Learning_Basics.md",
     "CheatSheets/04_Statistical_Testing.md",
     "CheatSheets/03_Exploratory_Data_Analysis.md",
     "CheatSheets/01_Data_Cleaning.md",
     "CheatSheets/02_Feature_Engineering.md",
-    "CheatSheets/08_Model_Interpretability.md",
-    "CheatSheets/07_Business_Metrics_ROI.md",
-    "CheatSheets/06_Advanced_Models.md",
-    "CheatSheets/00_Master_Index.md",
     "Malware Reverse Engineering/Fake Cloudflare Scam.md",
     "CheatSheets",
     "Untitled.md",
@@ -236,8 +237,6 @@
     "Web Development/Images/Pasted image 20260207235909.png",
     "Web Development/Images/Pasted image 20260208003324.png",
     "Web Development/Images/Pasted image 20260208003248.png",
-    "Web Development/Snippets/TM Protect Admin Layout Code.md",
-    "Web Dev/Snippets/Untitled.md",
     "Web Development/Images",
     "Web Development/Personal Notes",
     "Web Development/Snippets"

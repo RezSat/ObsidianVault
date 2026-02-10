@@ -2,5 +2,6 @@
 - Analysis: [[03_Exploratory_Data_Analysis]], [[04_Statistical_Testing]]
 - Modeling: [[05_Machine_Learning_Basics]], [[06_Advanced_Models]]
 - Business Impact: [[07_Business_Metrics_ROI]],[[08_Model_Interpretability]]
+- Setup and Troubleshooting: [[09_Setup_And_Pip]], [[99_Troubleshooting.md]]
 
 #Snippet

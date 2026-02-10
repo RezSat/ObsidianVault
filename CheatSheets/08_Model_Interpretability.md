@@ -1,4 +1,4 @@
-#Snippets
+#Snippets #shap #interpreting
 "Black box" models aren't enough for business. Managers will ask: _"Why did the model say this bus would be late?"_
 
 ```python
