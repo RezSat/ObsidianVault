@@ -11,14 +11,12 @@
             "id": "5c4b2a6293414ed7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Projects/Ceylonicus/Re-Implementation of Ceylonicus in C.md",
-                "mode": "source",
-                "source": false
+                "file": "Extra/Semester II- DSTime table_23-24.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Re-Implementation of Ceylonicus in C"
+              "icon": "lucide-file-text",
+              "title": "Semester II- DSTime table_23-24"
             }
           }
         ]
