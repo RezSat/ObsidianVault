@@ -1,3 +1,4 @@
+#Snippet #cleaning #row #pandas #numpy
 Turning raw, "dirty" data into something usable. Essential for Sri Lankan datasets with missing GPS or inconsistent labels.
 
 ```python

@@ -1,3 +1,5 @@
+#Snippet #feature #engineering
+
 Creating "signals" out of "noise." This is where you win competitions.
 ```python
 # 1. Cyclical Time Features (Sin/Cos encoding)

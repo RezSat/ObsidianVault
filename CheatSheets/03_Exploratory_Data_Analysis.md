@@ -1,3 +1,4 @@
+#Snippet #patterns #visualizing #seaborn #matplotlib
 Visualizing patterns before building models.
 
 ```python
