@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,7 +191,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d47942717d150c4",
+  "active": "384e2fd374d4e50f",
   "lastOpenFiles": [
     "Malware Reverse Engineering",
     "Malware Reverse Engineering/Fake Cloudflare Scam.md",
