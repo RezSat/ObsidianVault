@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0349b3c4bccf1fc5",
+        "id": "08be8cc5e310a709",
         "type": "tabs",
         "children": [
           {
-            "id": "a163526156238261",
+            "id": "4b4b5850d71d8b8f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2106 Analysis of Algorithms/23cds0843.pdf"
+                "file": "General Short Notes/Data Preprocessing.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "23cds0843"
+              "icon": "lucide-file",
+              "title": "Data Preprocessing"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb705362a70a2a4d",
@@ -175,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +193,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "a163526156238261",
+  "active": "4b4b5850d71d8b8f",
   "lastOpenFiles": [
+    "General Short Notes/Data Preprocessing.md",
+    "General Short Notes",
+    "2106 Analysis of Algorithms/23cds0843.pdf",
     "dd.md",
     "2104 Object Oriented Programming/23CDS0843.pdf",
     "2104 Object Oriented Programming/Questionnaire.md",
@@ -228,14 +235,11 @@
     "2103 Linear Algebra/08 - Row Reduction Shortcuts and Tricks.md",
     "2103 Linear Algebra/06 - Gauss and Gauss-Jordan (Workflows).md",
     "2103 Linear Algebra/03 - Pivots and Leading Entries.md",
-    "2103 Linear Algebra/02 - Elementary Row Operations.md",
     "Pasted image 20260208193441.png",
     "2103 Linear Algebra/Images",
     "2103 Linear Algebra/Images/Pasted image 20260208193327.png",
     "Web Development/Images/Pasted image 20260207235909.png",
     "Web Development/Images/Pasted image 20260208003324.png",
-    "Web Development/Images/Pasted image 20260208003248.png",
-    "Web Development/Images",
-    "Web Development/Personal Notes"
+    "Web Development/Images/Pasted image 20260208003248.png"
   ]
 }
