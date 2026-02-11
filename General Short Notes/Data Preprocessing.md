@@ -20,3 +20,5 @@ using pandas `df.dropna(), df.dropna(how='all'), df.dropna(subset=['col1', 'clo2
 - ML Preprocessing - Imputation + Indicator Column
 
 ## Handling Outliers
+
+Using Quartiles and Box Plots for visualization
