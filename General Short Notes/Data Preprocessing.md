@@ -43,3 +43,5 @@ Transforming raw data into meaningful feature to improve model performance
 Dimensionality Reduction
 
 ### Data Augmentation
+
+Accuracy as measurement is not good thing due imbalance or biased of data. 
