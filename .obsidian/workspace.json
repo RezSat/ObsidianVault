@@ -11,10 +11,12 @@
             "id": "a163526156238261",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "2106 Analysis of Algorithms/23cds0843.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "23cds0843"
             }
           }
         ]
@@ -189,6 +191,7 @@
   },
   "active": "a163526156238261",
   "lastOpenFiles": [
+    "dd.md",
     "2104 Object Oriented Programming/23CDS0843.pdf",
     "2104 Object Oriented Programming/Questionnaire.md",
     "Extra/Semester II- DSTime table_23-24.pdf",
@@ -233,7 +236,6 @@
     "Web Development/Images/Pasted image 20260208003324.png",
     "Web Development/Images/Pasted image 20260208003248.png",
     "Web Development/Images",
-    "Web Development/Personal Notes",
-    "Web Development/Snippets"
+    "Web Development/Personal Notes"
   ]
 }
