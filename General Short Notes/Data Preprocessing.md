@@ -41,3 +41,5 @@ since its really easier to deal with numerical data instead of categorical data,
 
 Transforming raw data into meaningful feature to improve model performance
 Dimensionality Reduction
+
+### Data Augmentation
