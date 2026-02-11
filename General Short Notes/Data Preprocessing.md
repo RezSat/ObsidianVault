@@ -36,3 +36,7 @@ since its really easier to deal with numerical data instead of categorical data,
 
 1. Label Encoding - More categories under categorical features
 2. One-Hot Encoding - 
+
+## Feature Engineering
+
+Transforming raw data into meaningful feature to improve model performance
