@@ -22,3 +22,9 @@ using pandas `df.dropna(), df.dropna(how='all'), df.dropna(subset=['col1', 'clo2
 ## Handling Outliers
 
 Using Quartiles and Box Plots for visualization
+
+## Scaling & Transformation
+- Standard Scaler - For linear models, Neural Networks
+- Minmax Scaler - For distance based models
+- Log/Box-Cox - For skewed data
+
