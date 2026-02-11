@@ -28,3 +28,11 @@ Using Quartiles and Box Plots for visualization
 - Minmax Scaler - For distance based models
 - Log/Box-Cox - For skewed data
 
+Important to standardized
+
+## Encoding Categorical Data
+
+since its really easier to deal with numerical data instead of categorical data,so encoding categorical variables is used here. Few techniques to do so are:
+
+1. Label Encoding - More categories under categorical features
+2. One-Hot Encoding - 
