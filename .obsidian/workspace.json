@@ -178,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,7 +192,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "4b4b5850d71d8b8f",
+  "active": "eed7b585c1a6c070",
   "lastOpenFiles": [
     "General Short Notes/Data Preprocessing.md",
     "General Short Notes",
