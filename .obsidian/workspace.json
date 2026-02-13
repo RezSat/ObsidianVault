@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Capstone Project I/Project Proposal.md",
+                "file": "Capstone Project I/NoteOnProjectByLecturer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project Proposal"
+              "title": "NoteOnProjectByLecturer"
             }
           }
         ]
@@ -194,6 +194,7 @@
   },
   "active": "2737d222d4e93871",
   "lastOpenFiles": [
+    "Capstone Project I/Project Proposal.md",
     "Capstone Project I/NoteOnProjectByLecturer.md",
     "Capstone Project I/HandbookContent.md",
     "Capstone Project I/Guidelines.pdf",
@@ -234,7 +235,6 @@
     "2103 Linear Algebra/01 - Augmented Matrix.md",
     "2103 Linear Algebra/00 - Index - Solving Linear Systems.md",
     "2103 Linear Algebra/10 - Common Mistakes and Checks.md",
-    "2103 Linear Algebra/08 - Row Reduction Shortcuts and Tricks.md",
     "Pasted image 20260208193441.png",
     "2103 Linear Algebra/Images/Pasted image 20260208193327.png",
     "Web Development/Images/Pasted image 20260207235909.png",
