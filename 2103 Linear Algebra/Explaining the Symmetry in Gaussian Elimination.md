@@ -6,3 +6,6 @@ The method will automatically works for the operations to be reversed obtaining 
 This property of supporting both ways can be described in multiple terms:
 
 #### 1. Directional Invariance
+#### 2. Duality in Elimination
+#### 3. Reflective Property of LU Elimination
+#### 4. Persymmetric View 
