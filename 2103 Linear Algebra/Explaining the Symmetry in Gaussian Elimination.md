@@ -9,3 +9,5 @@ This property of supporting both ways can be described in multiple terms:
 #### 2. Duality in Elimination
 #### 3. Reflective Property of LU Elimination
 #### 4. Persymmetric View 
+
+Other formally acceptable terms like Algorithmic Symmetry, Forward v Backward Substitution Paris, 
