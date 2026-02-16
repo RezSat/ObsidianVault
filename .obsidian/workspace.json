@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2103 Linear Algebra/Untitled.md",
+                "file": "2103 Linear Algebra/Explaining the Symmetry in Gaussian Elimination.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Explaining the Symmetry in Gaussian Elimination"
             }
           }
         ]
@@ -195,7 +195,7 @@
   "active": "1c78191206a38414",
   "lastOpenFiles": [
     "Extra/Data-Science-2nd-sem.pdf",
-    "2103 Linear Algebra/Untitled.md",
+    "2103 Linear Algebra/Explaining the Symmetry in Gaussian Elimination.md",
     "2103 Linear Algebra/04 - Row Echelon Form (REF).md",
     "2103 Linear Algebra/03 - Pivots and Leading Entries.md",
     "2103 Linear Algebra/07 - Reading Solutions (Unique, None, Infinite).md",
