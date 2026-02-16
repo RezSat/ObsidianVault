@@ -8,7 +8,9 @@ This property of supporting both ways can be described in multiple terms:
 #### 1. Directional Invariance
 #### 2. Duality in Elimination
 
-This could be one of the most formal way to describe this, 
+This could be one of the most formal way to describe this,
+- Forward Elimination: Produces a Upper Triangular
+- Backward Elimination: Produces a Lower 
 #### 3. Reflective Property of LU Elimination
 #### 4. Persymmetric View 
 
