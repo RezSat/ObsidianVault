@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5d86a147451fb343",
+        "id": "205bc501404101b4",
         "type": "tabs",
         "children": [
           {
-            "id": "42de282478cfe416",
+            "id": "1c78191206a38414",
             "type": "leaf",
             "state": {
-              "type": "typst-view",
+              "type": "markdown",
               "state": {
-                "file": "Capstone Project I/project-proposal.typ"
+                "file": "2103 Linear Algebra/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "typst-file",
-              "title": "project-proposal"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -190,8 +192,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "42de282478cfe416",
+  "active": "1c78191206a38414",
   "lastOpenFiles": [
+    "Extra/Data-Science-2nd-sem.pdf",
+    "2103 Linear Algebra/Untitled.md",
+    "2103 Linear Algebra/04 - Row Echelon Form (REF).md",
+    "2103 Linear Algebra/03 - Pivots and Leading Entries.md",
+    "2103 Linear Algebra/07 - Reading Solutions (Unique, None, Infinite).md",
+    "2103 Linear Algebra/06 - Gauss and Gauss-Jordan (Workflows).md",
+    "2103 Linear Algebra/02 - Elementary Row Operations.md",
+    "2103 Linear Algebra/01 - Augmented Matrix.md",
+    "2103 Linear Algebra/00 - Index - Solving Linear Systems.md",
+    "Extra/Data-Science-hand-book.pdf",
+    "Extra/Data-Science-summary-of-course.pdf",
+    "Extra/Semester II- DSTime table_23-24.pdf",
     "Capstone Project I/project-proposal.typ",
     "Untitled.md",
     "Capstone Project I/NoteOnProjectByLecturer.md",
@@ -204,7 +218,6 @@
     "dd.md",
     "2104 Object Oriented Programming/23CDS0843.pdf",
     "2104 Object Oriented Programming/Questionnaire.md",
-    "Extra/Semester II- DSTime table_23-24.pdf",
     "CheatSheets/09_Setup_And_Pip.md",
     "CheatSheets/08_Model_Interpretability.md",
     "CheatSheets/07_Business_Metrics_ROI.md",
@@ -215,24 +228,12 @@
     "CheatSheets/02_Feature_Engineering.md",
     "CheatSheets/01_Data_Cleaning.md",
     "CheatSheets/00_Master_Index.md",
-    "99_Troubleshooting.md",
-    "Malware Reverse Engineering/Fake Cloudflare Scam.md",
     "CheatSheets",
-    "Malware Reverse Engineering",
     "Pasted image 20260210140219.png",
     "Pasted image 20260210140208.png",
-    "Projects/Ceylonicus/Re-Implementation of Ceylonicus in C.md",
-    "Reverse Engineering/reversing-for-everyone.pdf",
-    "Projects/Ceylonicus",
-    "Projects",
-    "2103 Linear Algebra/09 - Choosing the Best Next Row Operation.md",
-    "2103 Linear Algebra/07 - Reading Solutions (Unique, None, Infinite).md",
     "2103 Linear Algebra/Images/Pasted image 20260208194232.png",
-    "2103 Linear Algebra/05 - Reduced Row Echelon Form (RREF).md",
     "2103 Linear Algebra/Images/Pasted image 20260208194150.png",
-    "2103 Linear Algebra/04 - Row Echelon Form (REF).md",
     "2103 Linear Algebra/Images/Pasted image 20260208194129.png",
-    "2103 Linear Algebra/01 - Augmented Matrix.md",
     "Pasted image 20260208193441.png",
     "2103 Linear Algebra/Images/Pasted image 20260208193327.png",
     "Web Development/Images/Pasted image 20260207235909.png",
