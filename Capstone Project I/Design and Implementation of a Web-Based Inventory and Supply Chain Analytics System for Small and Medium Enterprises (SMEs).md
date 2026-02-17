@@ -1,5 +1,5 @@
 **Project Title:**  
-Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs)
+
 
 **Background and Motivation:**  
 Many SMEs in Sri Lanka manage inventory and supplier operations using spreadsheets or manual record-keeping systems. These approaches often lead to inaccurate stock tracking, inefficient reorder decisions, limited demand visibility, and poor supplier performance analysis. Existing enterprise ERP systems are typically costly and overly complex for small businesses. Therefore, there is a need for a lightweight, data-driven system that integrates structured inventory management with analytical reporting.

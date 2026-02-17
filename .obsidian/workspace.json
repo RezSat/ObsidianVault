@@ -13,26 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Capstone Project I/Draft 2.md",
+                "file": "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Draft 2"
+              "title": "Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs)"
             }
           },
           {
             "id": "74373c74889033d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "typst-view",
               "state": {
-                "file": "Capstone Project I/Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "Capstone Project I/project-proposal.typ"
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "typst-file",
+              "title": "project-proposal"
             }
           },
           {
@@ -50,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,15 +218,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "4d2e54b5d63f00b2",
+  "active": "74373c74889033d7",
   "lastOpenFiles": [
-    "Capstone Project I/Untitled.md",
-    "Capstone Project I/Upamal Proposal.md",
-    "Capstone Project I/Draft 2.md",
-    "Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
-    "Capstone Project I/Project Proposal.md",
+    "Capstone Project I/HandbookContent.md",
+    "Capstone Project I/Guidelines.pdf",
     "Capstone Project I/project-proposal.typ",
+    "Capstone Project I/Untitled.md",
+    "README.md",
+    "Capstone Project I/Upamal Proposal.md",
+    "Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
+    "Capstone Project I/Project Proposal.md",
     "2103 Linear Algebra/Explaining the Symmetry in Gaussian Elimination.md",
     "2103 Linear Algebra/02 - Elementary Row Operations.md",
     "Extra/Data-Science-2nd-sem.pdf",
@@ -242,8 +242,6 @@
     "Extra/Data-Science-summary-of-course.pdf",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "Capstone Project I/NoteOnProjectByLecturer.md",
-    "Capstone Project I/HandbookContent.md",
-    "Capstone Project I/Guidelines.pdf",
     "General Short Notes/Data Preprocessing.md",
     "General Short Notes",
     "2106 Analysis of Algorithms/23cds0843.pdf",
@@ -255,8 +253,6 @@
     "CheatSheets/07_Business_Metrics_ROI.md",
     "CheatSheets/06_Advanced_Models.md",
     "CheatSheets/05_Machine_Learning_Basics.md",
-    "CheatSheets/04_Statistical_Testing.md",
-    "CheatSheets/03_Exploratory_Data_Analysis.md",
     "CheatSheets",
     "Pasted image 20260210140219.png",
     "Pasted image 20260210140208.png",
