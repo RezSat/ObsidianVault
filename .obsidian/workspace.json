@@ -25,13 +25,18 @@
             "id": "74373c74889033d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,8 +206,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "c8e6a193a69e8fe2",
+  "active": "74373c74889033d7",
   "lastOpenFiles": [
+    "Untitled.md",
     "Capstone Project I/Draft 2.md",
     "Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
