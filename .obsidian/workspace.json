@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "Draft 2"
             }
+          },
+          {
+            "id": "74373c74889033d7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       }
@@ -193,10 +203,11 @@
   },
   "active": "c8e6a193a69e8fe2",
   "lastOpenFiles": [
+    "Capstone Project I/Draft 2.md",
+    "Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
     "Capstone Project I/Project Proposal.md",
     "Capstone Project I/project-proposal.typ",
-    "Capstone Project I/Draft 2.md",
     "2103 Linear Algebra/Explaining the Symmetry in Gaussian Elimination.md",
     "2103 Linear Algebra/02 - Elementary Row Operations.md",
     "Extra/Data-Science-2nd-sem.pdf",
@@ -209,7 +220,6 @@
     "Extra/Data-Science-hand-book.pdf",
     "Extra/Data-Science-summary-of-course.pdf",
     "Extra/Semester II- DSTime table_23-24.pdf",
-    "Untitled.md",
     "Capstone Project I/NoteOnProjectByLecturer.md",
     "Capstone Project I/HandbookContent.md",
     "Capstone Project I/Guidelines.pdf",
