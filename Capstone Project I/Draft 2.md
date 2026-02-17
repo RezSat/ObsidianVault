@@ -1,9 +1,3 @@
-Dear Sir/Madam,
-
-I hope you are well.
-
-I would like to submit my proposed topic for the Capstone Project in Data Science I for your review and approval.
-
 **Project Title:**  
 Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs)
 
