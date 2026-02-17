@@ -28,6 +28,8 @@ Included features:
 - Analytical dashboards and reporting
 - Rule-based reorder alerts
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 Excluded features:
 
 - Machine learning-based forecasting models
