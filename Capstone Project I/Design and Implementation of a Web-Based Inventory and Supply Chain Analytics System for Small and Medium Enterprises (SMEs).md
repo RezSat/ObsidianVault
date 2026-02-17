@@ -1,4 +1,6 @@
-**Project Title:**  
+
+Student Name: **M.H. Yehan Wasura**
+Student Index: **23CDS0843**
 
 
 **Background and Motivation:**  
@@ -10,53 +12,35 @@ The project aims to design a web-based system capable of managing inventory and 
 **Objectives:**
 
 - Design a normalized relational database schema for inventory and supply chain entities.
-    
 - Implement core modules for product management, supplier management, warehouse tracking, and transaction logging.
-    
 - Apply data cleaning and transformation techniques to transaction data.
-    
 - Develop analytical features including inventory turnover calculation, demand aggregation (daily/weekly/monthly), reorder point estimation, and supplier performance metrics.
-    
 - Evaluate system correctness and performance.
-    
 
 **Scope:**  
 Included features:
 
 - Multi-organization support within a single platform
-    
 - Role-based user access control
-    
 - Inventory and warehouse management
-    
 - Stock-in and stock-out transaction logging
-    
 - PostgreSQL-based relational data modeling
-    
 - Analytical dashboards and reporting
-    
 - Rule-based reorder alerts
-    
 
 Excluded features:
 
 - Machine learning-based forecasting models
-    
 - Distributed systems or cluster architecture
-    
 - Payment gateway integration
-    
 - Full enterprise ERP functionality
     
 
 **Proposed Technologies:**
 
 - Frontend: React / Next.js
-    
 - Backend: FastAPI (Python)
-    
 - Database: PostgreSQL (deployed via Supabase)
-    
 
 PostgreSQL is selected for its strong relational integrity, indexing capabilities, analytical query support (including window functions), and ability to handle semi-structured data using JSONB. Supabase will be used as a managed PostgreSQL deployment platform with secure authentication and row-level security features.
 
