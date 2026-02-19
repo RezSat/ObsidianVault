@@ -11,10 +11,12 @@
             "id": "e85433ad440ca6a8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Extra/Data-Science-hand-book.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Data-Science-hand-book"
             }
           }
         ]
