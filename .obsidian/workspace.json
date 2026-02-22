@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f673c52866f1f8c5",
+        "id": "f4831862c3608702",
         "type": "tabs",
         "children": [
           {
-            "id": "e85433ad440ca6a8",
+            "id": "040f915d15a90660",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Extra/Data-Science-hand-book.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Data-Science-hand-book"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -175,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +188,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "e85433ad440ca6a8",
+  "active": "040f915d15a90660",
   "lastOpenFiles": [
+    "Extra/Data-Science-hand-book.pdf",
     "Capstone Project I/23CDS0843.md",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
     "Capstone Project I/Capstone Project Proposal.md",
@@ -212,7 +212,6 @@
     "2103 Linear Algebra/06 - Gauss and Gauss-Jordan (Workflows).md",
     "2103 Linear Algebra/01 - Augmented Matrix.md",
     "2103 Linear Algebra/00 - Index - Solving Linear Systems.md",
-    "Extra/Data-Science-hand-book.pdf",
     "Extra/Data-Science-summary-of-course.pdf",
     "Extra/Semester II- DSTime table_23-24.pdf",
     "General Short Notes/Data Preprocessing.md",
@@ -225,7 +224,6 @@
     "CheatSheets/08_Model_Interpretability.md",
     "CheatSheets/07_Business_Metrics_ROI.md",
     "CheatSheets/06_Advanced_Models.md",
-    "CheatSheets/05_Machine_Learning_Basics.md",
     "CheatSheets",
     "Pasted image 20260210140219.png",
     "Pasted image 20260210140208.png",
