@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pathology/Computational Pathology — applying machine learning to analyze tissue images for disease detection and understanding..md",
-                "mode": "source",
+                "file": "Pathology/computational pathology — notes.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computational Pathology — applying machine learning to analyze tissue images for disease detection and understanding."
+              "title": "computational pathology — notes"
             }
           }
         ]
@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +194,7 @@
   "active": "3693cab3a5733a0d",
   "lastOpenFiles": [
     "Extra/Data-Science-hand-book.pdf",
-    "Pathology/Computational Pathology — applying machine learning to analyze tissue images for disease detection and understanding..md",
+    "Pathology/computational pathology — notes.md",
     "Extra/Data-Science-2nd-sem.pdf",
     "Capstone Project I/Guidelines.pdf",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
