@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pathology/computational pathology — notes.md",
-                "mode": "preview",
+                "file": "Pathology/mil-attention-pathology.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "computational pathology — notes"
+              "title": "mil-attention-pathology"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "3693cab3a5733a0d",
   "lastOpenFiles": [
-    "Extra/Data-Science-hand-book.pdf",
     "Pathology/computational pathology — notes.md",
+    "Pathology/mil-attention-pathology.md",
+    "Extra/Data-Science-hand-book.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
     "Capstone Project I/Guidelines.pdf",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
