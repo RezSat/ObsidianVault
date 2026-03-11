@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "87639c75b2417b5a",
+        "id": "f404d8f4bf92c8b3",
         "type": "tabs",
         "children": [
           {
-            "id": "3693cab3a5733a0d",
+            "id": "86a89c1bb27130c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Pathology/mil-attention-pathology.md",
-                "mode": "source",
-                "source": false
+                "file": "Extra/Data-Science-hand-book.pdf"
               },
-              "icon": "lucide-file",
-              "title": "mil-attention-pathology"
+              "icon": "lucide-file-text",
+              "title": "Data-Science-hand-book"
             }
           }
         ]
@@ -191,10 +189,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "eed7b585c1a6c070",
+  "active": "86a89c1bb27130c7",
   "lastOpenFiles": [
-    "Pathology/computational pathology — notes.md",
     "Pathology/mil-attention-pathology.md",
+    "Pathology/computational pathology — notes.md",
     "Extra/Data-Science-hand-book.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
     "Capstone Project I/Guidelines.pdf",
