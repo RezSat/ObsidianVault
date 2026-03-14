@@ -10,6 +10,8 @@ DS1102 Programming Fundamentals TH PRS - Introduction: Relationship between comp
 
 so there are both python based code based problems sets, It would be nice if you can make these two into seperte sections as Complete theory based quesitons which might incude python code defintions and all, then more practical code based sections where they given us code and ask to either explain or write result or something similar based off of that code. you can use syntax highlighting and make sure to actually format the pdf properly because otherwise its really hard to look at and study.
 
+so there are few types of questions, drawing ER based problems, SQL query related, normalizations and then pure theory based questions as well, It would be nice to seperate tese into sections which might include codes, drawing problmes and query and definitions and everything neatly and nicely, use syntax highlighting as necessary. and make sure to actually format the pdf properly because otherwise its really hard to look at and study.
+
 finally take your time in creating this, confim that you cover all the given lecture slides and it essentially then covered everything in the student handbook syllabus defnition. and the final pdf is actually properly formatted.
 
 
