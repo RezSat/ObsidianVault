@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "f404d8f4bf92c8b3",
+        "id": "5056060fac8a0b50",
         "type": "tabs",
         "children": [
           {
-            "id": "86a89c1bb27130c7",
+            "id": "a54f64bdec41bd5e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Extra/Data-Science-hand-book.pdf"
+                "file": "Pathology/mil-attention-pathology.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Data-Science-hand-book"
+              "icon": "lucide-file",
+              "title": "mil-attention-pathology"
+            }
+          },
+          {
+            "id": "cf58eb279cbcfc03",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,12 +204,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "86a89c1bb27130c7",
+  "active": "cf58eb279cbcfc03",
   "lastOpenFiles": [
-    "Pathology/mil-attention-pathology.md",
     "Pathology/computational pathology — notes.md",
     "Extra/Data-Science-hand-book.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
+    "Pathology/mil-attention-pathology.md",
     "Capstone Project I/Guidelines.pdf",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
     "Capstone Project I/Capstone Project Proposal.md",
@@ -225,7 +240,6 @@
     "2104 Object Oriented Programming/Questionnaire.md",
     "CheatSheets/09_Setup_And_Pip.md",
     "CheatSheets/08_Model_Interpretability.md",
-    "CheatSheets/07_Business_Metrics_ROI.md",
     "CheatSheets",
     "Pasted image 20260210140219.png",
     "Pasted image 20260210140208.png",
