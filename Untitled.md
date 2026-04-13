@@ -4,7 +4,7 @@
 
 # `docs/api/stock-movements.md`
 
-```md
+
 # Stock Movements API
 
 ## Purpose
@@ -80,8 +80,6 @@ Returns stock movement history.
     
 - e2e: tests/e2e
     
-
-````
 
 ---
 
@@ -204,8 +202,6 @@ Revokes an API key.
     
 - e2e: tests/e2e
     
-
-````
 
 ---
 
