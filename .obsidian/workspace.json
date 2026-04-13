@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5056060fac8a0b50",
+        "id": "2bb6ce4499b16555",
         "type": "tabs",
         "children": [
           {
-            "id": "cf58eb279cbcfc03",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Extra/Data-Science-2nd-sem.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Data-Science-2nd-sem"
-            }
-          },
-          {
-            "id": "8e6034821dec0931",
+            "id": "0e3e7088b6b04f6a",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -29,6 +17,18 @@
               },
               "icon": "lucide-file-text",
               "title": "Data-Science-hand-book"
+            }
+          },
+          {
+            "id": "ca3657b5c6aec0b2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
             }
           }
         ],
@@ -202,12 +202,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "8e6034821dec0931",
+  "active": "ca3657b5c6aec0b2",
   "lastOpenFiles": [
     "Extra/Data-Science-2nd-sem.pdf",
+    "Extra/Semester II- DSTime table_23-24.pdf",
+    "Extra/Data-Science-hand-book.pdf",
     "Pathology/mil-attention-pathology.md",
     "Untitled.md",
-    "Extra/Data-Science-hand-book.pdf",
     "Pathology/computational pathology — notes.md",
     "Capstone Project I/Guidelines.pdf",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
@@ -230,7 +231,6 @@
     "2103 Linear Algebra/01 - Augmented Matrix.md",
     "2103 Linear Algebra/00 - Index - Solving Linear Systems.md",
     "Extra/Data-Science-summary-of-course.pdf",
-    "Extra/Semester II- DSTime table_23-24.pdf",
     "General Short Notes/Data Preprocessing.md",
     "General Short Notes",
     "2106 Analysis of Algorithms/23cds0843.pdf",
