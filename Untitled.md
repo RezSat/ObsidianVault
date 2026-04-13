@@ -71,7 +71,7 @@ Expected outcome:
 
 ---
 
-# Task 4, implement stock adjustment transaction logic
+# Task 4 (DONE), implement stock adjustment transaction logic
 
 ```text
 Task: Implement inventory stock adjustment logic with correct business rules.
