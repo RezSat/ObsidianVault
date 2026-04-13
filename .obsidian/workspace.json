@@ -11,10 +11,14 @@
             "id": "2d719bbc8ba65c3c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -187,8 +191,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d47942717d150c4",
+  "active": "2d719bbc8ba65c3c",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Data Science CheatSheets/00_Master_Index.md",
     "Data Science CheatSheets/09_Setup_And_Pip.md",
     "Data Science CheatSheets/08_Model_Interpretability.md",
     "Data Science CheatSheets/07_Business_Metrics_ROI.md",
@@ -198,7 +204,6 @@
     "Data Science CheatSheets/03_Exploratory_Data_Analysis.md",
     "Data Science CheatSheets/02_Feature_Engineering.md",
     "Data Science CheatSheets/01_Data_Cleaning.md",
-    "Data Science CheatSheets/00_Master_Index.md",
     "Chess Notes/Players/Mikhail Tal.md",
     "Chess Notes/Prompt.md",
     "Chess Notes/Patterns/Sacrifices/Greek Gift.md",
@@ -219,7 +224,6 @@
     "Chess Notes/Players",
     "Chess Notes/Players/Mikhail Tal",
     "Pathology/mil-attention-pathology.md",
-    "Untitled.md",
     "Pathology/computational pathology — notes.md",
     "Capstone Project I/Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
     "Capstone Project I/Capstone Project Proposal.md",
