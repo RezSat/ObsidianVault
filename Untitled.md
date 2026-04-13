@@ -128,7 +128,7 @@ Expected outcome:
 
 ---
 
-# Task 6, implement low stock and out of stock query logic
+# Task 6 (DONE), implement low stock and out of stock query logic
 
 ```text
 Task: Implement low stock and out of stock query logic.
