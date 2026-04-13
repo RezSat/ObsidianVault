@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Extra/Data-Science-hand-book.pdf"
+                "file": "Extra/Data-Science-2nd-sem.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Data-Science-hand-book"
+              "title": "Data-Science-2nd-sem"
             }
           },
           {
@@ -31,8 +31,7 @@
               "title": "Release Notes 1.12.7"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,11 +201,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "ca3657b5c6aec0b2",
+  "active": "0e3e7088b6b04f6a",
   "lastOpenFiles": [
+    "Extra/Data-Science-hand-book.pdf",
     "Extra/Data-Science-2nd-sem.pdf",
     "Extra/Semester II- DSTime table_23-24.pdf",
-    "Extra/Data-Science-hand-book.pdf",
     "Pathology/mil-attention-pathology.md",
     "Untitled.md",
     "Pathology/computational pathology — notes.md",
