@@ -101,7 +101,7 @@ Expected outcome:
 
 ---
 
-# Task 5, connect stock adjustment with movement logging
+# Task 5 (DONE), connect stock adjustment with movement logging
 
 ```text
 Task: Connect stock adjustment flow with stock movement logging.
