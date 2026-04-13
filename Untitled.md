@@ -1,109 +1,199 @@
 
-# Products API
+
+---
+
+# `docs/api/stock-movements.md`
+
+```md
+# Stock Movements API
 
 ## Purpose
-Exposes product-related endpoints for dashboard and external integrations.
+Exposes stock movement history for dashboard and external integrations.
 
 ## Endpoints
 
-### GET /api/products
-Returns a list of products.
+### GET /api/stock-movements
+Returns stock movement history.
 
 #### Query support
-- optional search later
-- optional active filter later
+- optional productId filter later
+- optional type filter later
 
 #### Success response
 ```json
 {
   "success": true,
   "data": {
-    "items": []
+    "items": [
+      {
+        "id": "movement_id",
+        "productId": "product_id",
+        "type": "in",
+        "quantity": 10,
+        "note": "Initial stock",
+        "source": "dashboard",
+        "createdAt": "2026-04-14T10:00:00.000Z"
+      }
+    ]
+  },
+  "error": null
+}
+````
+
+## Validation rules
+
+- filter values must be valid when added
+    
+- type filter must match allowed movement types
+    
+
+## Dependencies
+
+- stock-movements.service
+    
+- stock-movements.schema
+    
+- stock-movements.repo
+    
+
+## Forbidden
+
+- direct database access in route handler
+    
+- movement classification logic in route handler
+    
+
+## Edge Cases
+
+- empty history
+    
+- invalid filter
+    
+- missing product id filter target
+    
+- malformed query parameters
+    
+
+## Tests
+
+- integration: tests/integration/api
+    
+- e2e: tests/e2e
+    
+
+````
+
+---
+
+# Also add this one too, it will help later  
+`docs/api/api-keys.md`
+
+```md
+# API Keys API
+
+## Purpose
+Exposes API key management endpoints for external integration access.
+
+## Endpoints
+
+### POST /api/api-keys
+Creates a new API key.
+
+#### Request body
+```json
+{
+  "name": "POS Integration"
+}
+````
+
+#### Success response
+
+```json
+{
+  "success": true,
+  "data": {
+    "id": "key_id",
+    "name": "POS Integration",
+    "key": "raw_key_only_once"
   },
   "error": null
 }
 ```
 
-#### Error response
+### GET /api/api-keys
+
+Returns existing API key metadata without exposing raw keys.
+
+#### Success response
 
 ```json
 {
-  "success": false,
-  "data": null,
-  "error": {
-    "code": "UNAUTHORIZED",
-    "message": "Invalid API key"
-  }
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "id": "key_id",
+        "name": "POS Integration",
+        "lastUsedAt": null,
+        "revokedAt": null,
+        "createdAt": "2026-04-14T10:00:00.000Z"
+      }
+    ]
+  },
+  "error": null
 }
 ```
 
-### POST /api/products
+### POST /api/api-keys/revoke
 
-Creates a new product.
+Revokes an API key.
 
 #### Request body
 
 ```json
 {
-  "sku": "SKU-001",
-  "name": "Sample Product",
-  "description": "Optional description",
-  "lowStockThreshold": 10,
-  "isActive": true
-}
-```
-
-#### Success response
-
-```json
-{
-  "success": true,
-  "data": {
-    "id": "product_id",
-    "sku": "SKU-001",
-    "name": "Sample Product",
-    "description": "Optional description",
-    "lowStockThreshold": 10,
-    "isActive": true
-  },
-  "error": null
+  "id": "key_id"
 }
 ```
 
 ## Validation rules
 
-- sku is required
+- name is required on create
     
-- name is required
+- id is required on revoke
     
-- lowStockThreshold must be zero or greater
+- raw keys are never returned again after creation
     
-- sku must be unique
+- revoked keys must fail authorization
     
 
 ## Dependencies
 
-- products.service
+- api-keys.service
     
-- products.schema
+- api-keys.schema
     
-- products.repo
+- api-keys.repo
+    
+- auth.service
     
 
 ## Forbidden
 
-- business logic in route handler
+- storing raw key in database
     
-- direct database access in route handler
+- returning hashed key to clients
+    
+- route-level business logic
     
 
 ## Edge Cases
 
-- duplicate sku
+- empty key name
     
-- empty product name
+- revoke non-existing key
     
-- invalid threshold
+- reuse revoked key
     
 - malformed request body
     
@@ -113,3 +203,77 @@ Creates a new product.
 - integration: tests/integration/api
     
 - e2e: tests/e2e
+    
+
+````
+
+---
+
+# And update this file too  
+`index/doc-map.md`
+
+Add these lines under API docs:
+
+```md
+## API docs
+- docs/api/products.md → product endpoint contract
+- docs/api/inventory.md → inventory endpoint contract
+- docs/api/stock-movements.md → stock movement endpoint contract
+- docs/api/api-keys.md → API key endpoint contract
+````
+
+---
+
+# And create this missing file
+
+PowerShell:
+
+```powershell
+ni docs\api\api-keys.md -ItemType File -Force
+```
+
+---
+
+# Tiny cleanup
+
+Also update `index/module-map.md` for api-keys:
+
+```md
+## api-keys
+Code:
+- src/modules/api-keys
+Docs:
+- docs/modules/api-keys
+API:
+- docs/api/api-keys.md
+Tests:
+- tests/unit/api-keys
+- tests/integration/api
+```
+
+And for auth:
+
+```md
+## auth
+Code:
+- src/modules/auth
+Docs:
+- docs/modules/auth
+Tests:
+- tests/unit/auth
+- tests/integration/api
+```
+
+---
+
+Phase 2 will be in very good shape after this.
+
+Next best step is **Phase 3**, meaning:
+
+- finalize actual DB schema
+    
+- create module schema files
+    
+- create first service and repo contracts
+    
+- set up API key hashing properly
