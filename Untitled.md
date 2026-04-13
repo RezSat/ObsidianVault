@@ -25,7 +25,7 @@ Do not implement inventory initialization yet.
 
 ---
 
-# Task 2, initialize inventory record when product is created
+# Task 2 (DONE), initialize inventory record when product is created
 
 ```text
 Task: Extend product creation workflow to also initialize an inventory row.
