@@ -187,7 +187,7 @@ Expected outcome:
 
 ---
 
-# Task 8, implement API key authorization flow
+# Task 8 (DONE), implement API key authorization flow
 
 ```text
 Task: Implement API key authorization logic for external API access.
