@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6b0d9e8df0e29449",
+        "id": "810beae904df6328",
         "type": "tabs",
         "children": [
           {
-            "id": "3ffa885268fc98d8",
+            "id": "2d719bbc8ba65c3c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CheatSheets/03_Exploratory_Data_Analysis.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03_Exploratory_Data_Analysis"
+              "title": "New tab"
             }
           }
         ]
@@ -191,12 +187,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "3ffa885268fc98d8",
+  "active": "5d47942717d150c4",
   "lastOpenFiles": [
-    "CheatSheets/08_Model_Interpretability.md",
-    "CheatSheets/02_Feature_Engineering.md",
-    "CheatSheets/01_Data_Cleaning.md",
-    "CheatSheets/00_Master_Index.md",
+    "Data Science CheatSheets/09_Setup_And_Pip.md",
+    "Data Science CheatSheets/08_Model_Interpretability.md",
+    "Data Science CheatSheets/07_Business_Metrics_ROI.md",
+    "Data Science CheatSheets/06_Advanced_Models.md",
+    "Data Science CheatSheets/05_Machine_Learning_Basics.md",
+    "Data Science CheatSheets/04_Statistical_Testing.md",
+    "Data Science CheatSheets/03_Exploratory_Data_Analysis.md",
+    "Data Science CheatSheets/02_Feature_Engineering.md",
+    "Data Science CheatSheets/01_Data_Cleaning.md",
+    "Data Science CheatSheets/00_Master_Index.md",
     "Chess Notes/Players/Mikhail Tal.md",
     "Chess Notes/Prompt.md",
     "Chess Notes/Patterns/Sacrifices/Greek Gift.md",
@@ -223,12 +225,6 @@
     "Capstone Project I/Capstone Project Proposal.md",
     "Capstone Project I/23CDS0843.md",
     "Capstone Project I/Project Proposal.md",
-    "Capstone Project I/Untitled.md",
-    "Capstone Project I/HandbookContent.md",
-    "Capstone Project I/NoteOnProjectByLecturer.md",
-    "Capstone Project I/Upamal Proposal.md",
-    "README.md",
-    "Design and Implementation of a Web-Based Inventory and Supply Chain Analytics System for Small and Medium Enterprises (SMEs).md",
     "Pasted image 20260210140219.png",
     "Pasted image 20260210140208.png",
     "2103 Linear Algebra/Images/Pasted image 20260208194232.png",
