@@ -215,7 +215,7 @@ Expected outcome:
 
 ---
 
-# Task 9, add products API route handlers
+# Task 9 (DONE), add products API route handlers
 
 ```text
 Task: Implement products API routes.
