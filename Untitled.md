@@ -48,7 +48,7 @@ Expected outcome:
 
 ---
 
-# Task 3, implement stock movement creation repo and service
+# Task 3(DONE), implement stock movement creation repo and service
 
 ```text
 Task: Implement stock movement creation logic.
