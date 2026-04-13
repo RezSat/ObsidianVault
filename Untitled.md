@@ -157,7 +157,7 @@ Expected outcome:
 
 ---
 
-# Task 7, implement API key creation logic
+# Task 7 (DONE), implement API key creation logic
 
 ```text
 Task: Implement API key creation logic for external integrations.
