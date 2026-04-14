@@ -116,7 +116,7 @@ Use these in order, one by one.
 
 ---
 
-## Task 1, implement dashboard auth foundation
+## Task 1 (Done), implement dashboard auth foundation
 
 ```text
 Task: Implement dashboard authentication foundation using Supabase Auth.
