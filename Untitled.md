@@ -1,387 +1,548 @@
-# Task 1 (DONE), implement product creation repo and service
+Yes, **migrate before Phase 5**.
+
+Because Phase 5 will start using the real UI against the real tables and flows. If you only generated migrations but did not apply them, the app can compile while the database is still behind, and then you get confusing runtime failures.
+
+## Run this now
+
+If your `package.json` already has:
+
+```json
+"db:migrate": "drizzle-kit migrate"
+```
+
+then run:
+
+```bash
+pnpm db:migrate
+```
+
+After that, good safety checks are:
+
+```bash
+pnpm exec tsc --noEmit
+pnpm test
+pnpm test:e2e
+```
+
+If this is only your local dev database, migrate now without hesitation.  
+If this were production with live client data, then I’d say review migration SQL first and back up before applying. But for your current stage, **yes, migrate now**.
+
+---
+
+# Phase 5 goal
+
+Phase 5 should turn the backend foundation into a **usable minimal product UI**.
+
+By the end of Phase 5, you should have:
+
+- dashboard auth for internal users
+    
+- protected dashboard routes
+    
+- app layout and navigation
+    
+- products screen
+    
+- inventory screen
+    
+- stock movements screen
+    
+- API keys screen
+    
+- forms and tables wired to the real services
+    
+- loading, empty, and error states
+    
+- e2e coverage for the main UI flows
+    
+- docs and maps updated
+    
+
+This phase should still stay boring. No analytics, no fancy charts, no decorative complexity.
+
+---
+
+# Important change from Phase 4
+
+For Phase 5 and after, use a **smaller context prompt style**.
+
+Instead of making the agent read the whole universe every time, use this compact global prefix.
+
+---
+
+# Global prefix prompt for Phase 5
 
 ```text
-Task: Implement product creation domain logic.
+Read only the minimum required context before making changes.
 
-Requirements:
-- build product repository insert logic
-- build product service create logic
-- validate input with existing product schema
-- reject duplicate SKU
-- keep route handlers untouched in this task
-- keep files small and modular
-- update relevant docs and index maps
-- add unit tests for product validation and duplicate SKU behavior where possible
+Always read:
+- docs/agent-context/core.md
 
-Expected outcome:
-- product create service exists
-- product insert repo exists
-- service can validate and create product safely
-- docs and index files are updated
-- tests are added and passing
+Then read only the task-relevant module context file:
+- docs/agent-context/products.md for product tasks
+- docs/agent-context/inventory.md for inventory tasks
+- docs/agent-context/stock-movements.md for movement tasks
+- docs/agent-context/api-keys.md for API key tasks
+- docs/agent-context/auth.md for auth tasks
+- docs/ui/dashboard.md and docs/ui/screens.md for UI tasks
 
-Do not implement inventory initialization yet.
+Read only the source files, route files, page files, and tests directly related to the task.
+
+Strict rules:
+- no file may exceed 150 lines
+- target under 100 lines
+- one file, one responsibility
+- no business logic in route handlers
+- no direct database access from UI client components
+- no hidden optimizations
+- no unnecessary abstractions
+- update docs, index files, and tests for every meaningful change
+- run lint, typecheck, and tests before finishing
+- commit and push after each completed logical unit
+
+Architecture:
+- UI → service → repo → db
+- API → service → repo → db
+
+Do only the requested task. Do not implement unrelated features.
+Do the smallest complete change that satisfies the task, then update docs, maps, tests, commit, and push.
 ```
 
 ---
 
-# Task 2 (DONE), initialize inventory record when product is created
+# Phase 5 prompt pack
+
+Use these in order, one by one.
+
+---
+
+## Task 1, implement dashboard auth foundation
 
 ```text
-Task: Extend product creation workflow to also initialize an inventory row.
+Task: Implement dashboard authentication foundation using Supabase Auth.
 
 Requirements:
-- after product creation, create a matching inventory_items row with quantity 0
-- perform product creation and inventory initialization safely
-- if both operations are part of the same flow, keep the workflow consistent
-- keep logic in service and repo layers only
-- do not implement API routes in this task
-- update docs/architecture/database.md if needed
-- update module docs and index maps
-- add unit or integration tests covering product + inventory initialization behavior
+- set up the minimal auth integration needed for internal dashboard access
+- keep external API key auth separate from dashboard auth
+- create the smallest possible auth utilities for dashboard session handling
+- do not build screens yet
+- do not mix API key auth into dashboard session logic
+- keep files modular and small
+- update auth docs, UI docs, and index maps
+- add tests where appropriate for auth helpers
 
 Expected outcome:
-- creating a product also creates an inventory record with quantity 0
+- dashboard auth foundation exists
+- dashboard auth is clearly separated from external API key auth
+- docs updated
+- tests added where appropriate
+```
+
+---
+
+## Task 2, protect dashboard routes
+
+```text
+Task: Protect dashboard routes so only authenticated dashboard users can access them.
+
+Requirements:
+- add route protection for dashboard pages
+- unauthenticated users should be redirected to login or the selected auth entry page
+- keep protection logic explicit and minimal
+- do not add business logic into middleware beyond access control
+- update docs/ui/dashboard.md, docs/modules/auth/* if needed, and index maps
+- add integration or e2e coverage for protected route behavior
+
+Expected outcome:
+- dashboard routes are protected
+- unauthenticated users cannot access dashboard pages
 - docs updated
 - tests added and passing
 ```
 
 ---
 
-# Task 3(DONE), implement stock movement creation repo and service
+## Task 3, create minimal dashboard shell and navigation
 
 ```text
-Task: Implement stock movement creation logic.
+Task: Build the minimal dashboard shell and navigation.
 
 Requirements:
-- add repository function to insert stock movement records
-- add service-level validated creation entry point
-- use existing movement schema and types
-- keep logic simple and explicit
-- do not yet connect this to stock adjustment flow
-- update docs for stock-movements module and code maps
-- add unit tests for validation and integration-level test coverage if appropriate
+- create a simple dashboard layout
+- include navigation for:
+  - Overview
+  - Products
+  - Inventory
+  - Stock Movements
+  - API Keys
+- keep UI very minimal and operational
+- use Tailwind and shadcn components only where useful
+- do not add charts or decorative widgets
+- update docs/ui/dashboard.md and docs/ui/screens.md
+- update maps if new files are created
 
 Expected outcome:
-- movement repo insert exists
-- movement service create entry exists
+- dashboard shell exists
+- navigation exists
+- docs updated
+```
+
+---
+
+## Task 4, create overview screen
+
+```text
+Task: Implement the minimal Overview screen.
+
+Requirements:
+- create a simple overview page for the dashboard
+- show only minimal operational summary
+- keep implementation simple and server-driven
+- do not add charts
+- if counts are shown, use existing services or clean service-level queries
+- support loading, empty, and error-safe rendering
+- update docs/ui/screens.md and related maps
+- add tests if applicable
+
+Expected outcome:
+- overview screen exists
+- overview stays simple and operational
+- docs updated
+```
+
+---
+
+## Task 5, build products list screen
+
+```text
+Task: Implement the Products screen list view.
+
+Requirements:
+- create a Products page in the dashboard
+- show product list using a simple table
+- include basic fields such as sku, name, threshold, and active state
+- keep data access aligned with the architecture
+- avoid client-side business logic
+- support loading, empty, and error states
+- update UI docs and index maps
+- add e2e coverage for viewing the Products screen
+
+Expected outcome:
+- products list screen exists
+- products can be viewed in dashboard
 - docs updated
 - tests added and passing
 ```
 
 ---
 
-# Task 4 (DONE), implement stock adjustment transaction logic
+## Task 6, add create product UI flow
 
 ```text
-Task: Implement inventory stock adjustment logic with correct business rules.
+Task: Implement the create product UI flow.
 
 Requirements:
-- add inventory service logic to adjust stock for type: in, out, adjustment
-- validate payload with existing inventory schema
-- read current inventory state
-- prevent resulting stock from going below zero
-- use transaction logic so stock change is safe
-- do not create route handlers in this task
-- keep files below line limits
-- update docs and index files
-- add unit tests for:
-  - increase stock
-  - decrease stock
-  - adjustment
-  - invalid zero quantity
-  - negative resulting stock rejection
+- add a create product action from the Products screen
+- use a simple form, page, or dialog, whichever keeps complexity lower
+- validate inputs correctly
+- submit through the clean application boundary
+- after success, reflect the new product in the list
+- keep files below size limits
+- update docs/ui/screens.md, docs/api/products.md if needed, and index maps
+- add e2e coverage for successful product creation and invalid submission behavior
 
 Expected outcome:
-- inventory adjustment service exists
-- negative stock is blocked
+- products can be created from the dashboard
+- invalid input is handled properly
 - docs updated
 - tests added and passing
 ```
 
 ---
 
-# Task 5 (DONE), connect stock adjustment with movement logging
+## Task 7, add edit product UI flow
 
 ```text
-Task: Connect stock adjustment flow with stock movement logging.
+Task: Implement the minimal edit product UI flow.
 
 Requirements:
-- when stock is adjusted, create a corresponding stock movement record
-- stock update and movement insert must succeed together or fail together
-- keep orchestration in service layer
-- use repo functions for persistence
-- keep logic explicit and easy to review
-- update docs/architecture/database.md and inventory / stock-movements module docs
-- update index maps
-- add integration tests that verify:
-  - stock change writes movement
-  - failed stock change does not write movement
-  - failed movement insert does not leave partial stock update
+- allow editing basic product fields
+- keep the edit flow simple
+- do not add advanced multi-step editing
+- ensure updated values are reflected correctly
+- preserve architecture boundaries
+- update relevant docs and maps
+- add e2e coverage for editing a product
 
 Expected outcome:
-- stock adjustment and movement logging are linked
-- transactional behavior is enforced
+- product edit flow exists
 - docs updated
 - tests added and passing
 ```
 
 ---
 
-# Task 6 (DONE), implement low stock and out of stock query logic
+## Task 8, build inventory screen
 
 ```text
-Task: Implement low stock and out of stock query logic.
+Task: Implement the Inventory screen.
 
 Requirements:
-- create service and repo logic to list inventory items that are:
-  - low stock
-  - out of stock
-- low stock means quantity is less than or equal to lowStockThreshold
-- out of stock means quantity equals 0
-- keep logic explicit and easy to test
-- do not build routes yet
-- update inventory docs and index maps
-- add unit and integration tests for:
-  - exact threshold match
-  - below threshold
-  - zero quantity
-  - non-low-stock items excluded
+- create an Inventory page in the dashboard
+- show current stock quantity per product
+- show low stock and out of stock indicators using simple badges
+- keep rendering simple and readable
+- support loading, empty, and error states
+- update UI docs and index maps
+- add e2e coverage for viewing inventory states
 
 Expected outcome:
-- low stock query exists
-- out of stock query exists
+- inventory screen exists
+- stock states are visible
 - docs updated
 - tests added and passing
 ```
 
 ---
 
-# Task 7 (DONE), implement API key creation logic
+## Task 9, add adjust stock UI flow
 
 ```text
-Task: Implement API key creation logic for external integrations.
+Task: Implement the stock adjustment UI flow.
 
 Requirements:
-- generate raw API key
-- hash raw API key before storage
-- store only hashed key
-- return raw key only once at creation
-- add repo and service support as needed
-- do not implement revoke yet unless needed for file design
-- keep logic explicit and small
-- update api-keys docs, auth docs, and index maps
-- add unit tests for:
-  - key generation
-  - key hashing
-  - no raw key persistence
-- add integration test coverage if appropriate
-
-Expected outcome:
-- API key creation service exists
-- hashed key is stored
-- raw key is returned once
-- docs updated
-- tests added and passing
-```
-
----
-
-# Task 8 (DONE), implement API key authorization flow
-
-```text
-Task: Implement API key authorization logic for external API access.
-
-Requirements:
-- read x-api-key header using existing helper
-- hash provided raw key
-- lookup active non-revoked key
-- return normalized authorization result
-- keep logic in auth service and auth repo layers
-- do not add route handlers yet
-- update auth docs and index maps
-- add unit tests for:
-  - valid key
-  - missing key
-  - revoked key
-  - invalid key
-
-Expected outcome:
-- API key authorization logic exists
-- auth service returns clear result
-- docs updated
-- tests added and passing
-```
-
----
-
-# Task 9 (DONE), add products API route handlers
-
-```text
-Task: Implement products API routes.
-
-Requirements:
-- add GET /api/products
-- add POST /api/products
-- route handlers must stay thin
-- route handlers must call service layer only
-- use standard response helpers
-- return consistent success and error shapes
-- wire POST /api/products to create product and initialize inventory
-- update docs/api/products.md and all relevant maps
-- add integration tests for:
-  - successful create
-  - duplicate SKU rejection
-  - invalid body rejection
-  - list products success
-
-Expected outcome:
-- products routes exist
-- routes are thin
-- docs updated
-- integration tests passing
-```
-
----
-
-# Task 10 (DONE), add inventory API route handlers
-
-```text
-Task: Implement inventory API routes.
-
-Requirements:
-- add GET /api/inventory
-- add POST /api/inventory/adjust
-- add GET /api/inventory/low-stock
-- route handlers must stay thin
-- route handlers must call service layer only
-- use standard response helpers
-- inventory adjust route must use stock adjustment transaction logic
-- update docs/api/inventory.md and relevant maps
-- add integration tests for:
+- add an adjust stock action from the Inventory screen
+- allow adjustment types: in, out, adjustment
+- validate quantity and required fields
+- surface business errors clearly, including below-zero rejection
+- after success, refresh inventory state and movement history where appropriate
+- keep the flow minimal and operational
+- update inventory docs, UI docs, and maps
+- add e2e coverage for:
   - successful stock increase
   - successful stock decrease
-  - rejection when stock would go below zero
-  - low stock listing
-  - invalid payload rejection
+  - rejection when resulting stock would go below zero
 
 Expected outcome:
-- inventory routes exist
-- stock adjustment route is working
-- low stock route is working
+- stock adjustment can be performed from the dashboard
+- errors are shown clearly
 - docs updated
-- integration tests passing
+- tests added and passing
 ```
 
 ---
 
-# Task 11 Done, add stock movements API route handler
+## Task 10, build stock movements screen
 
 ```text
-Task: Implement stock movements API route.
+Task: Implement the Stock Movements screen.
 
 Requirements:
-- add GET /api/stock-movements
-- keep route thin
-- use service layer only
-- use standard response shape
-- update docs/api/stock-movements.md and maps
-- add integration tests for:
-  - list movement history
-  - empty history case
-  - optional product-based query support only if already designed cleanly
+- create a Stock Movements page in the dashboard
+- show movement history in a simple table
+- include product, type, quantity, note, source, and timestamp
+- keep it operational and readable
+- support empty and error states
+- do not add advanced filtering unless it remains very small and clean
+- update docs and maps
+- add e2e coverage for viewing movement history after stock changes
 
 Expected outcome:
-- stock movements route exists
+- stock movements screen exists
+- movement history is visible
 - docs updated
-- integration tests passing
+- tests added and passing
 ```
 
 ---
 
-# Task 12 (DONE), add API keys API route handlers
+## Task 11, build API keys screen list view
 
 ```text
-Task: Implement API key API routes.
+Task: Implement the API Keys screen.
 
 Requirements:
-- add POST /api/api-keys
-- add GET /api/api-keys
-- add POST /api/api-keys/revoke if current design supports it cleanly
-- raw key must only be returned on creation
-- route handlers must stay thin
-- use service layer only
-- update docs/api/api-keys.md and maps
-- add integration tests for:
-  - create key
-  - list keys without raw key exposure
-  - revoke key if implemented
-  - malformed payload rejection
+- create an API Keys page in the dashboard
+- show existing API key metadata without exposing raw keys
+- include name, created date, last used date, and revoked state
+- keep it simple and operational
+- support empty and error states
+- update docs and maps
+- add e2e coverage for viewing API keys
 
 Expected outcome:
-- API key routes exist
-- raw key exposure rule is enforced
+- API keys list screen exists
+- raw keys are never exposed in list view
 - docs updated
-- integration tests passing
+- tests added and passing
 ```
 
 ---
 
-# Task 13, protect external API routes with API key auth where appropriate
+## Task 12, add create API key UI flow
 
 ```text
-Task: Add API key authorization protection to external API routes.
+Task: Implement the create API key UI flow.
 
 Requirements:
-- apply API key auth to the routes intended for external system access
-- use existing auth service and API key helper
-- keep authorization checks explicit and small
-- do not mix business logic into auth checks
-- update auth docs, API docs, and index maps
-- add integration tests for:
-  - missing API key
-  - invalid API key
-  - revoked API key
-  - valid API key success
+- allow a dashboard user to create a new API key
+- show the raw key exactly once after creation
+- clearly indicate that the raw key will not be shown again
+- keep the UI minimal
+- ensure the list view does not reveal raw keys later
+- update API key docs, UI docs, and maps
+- add e2e coverage for API key creation and one-time raw key display
 
 Expected outcome:
-- protected routes reject unauthorized requests
-- authorized requests succeed
+- API keys can be created from the dashboard
+- raw key is shown once only
 - docs updated
-- integration tests passing
+- tests added and passing
 ```
 
 ---
 
-# Task 14, add final Phase 4 cleanup pass
+## Task 13, add revoke API key UI flow
 
 ```text
-Task: Perform a Phase 4 cleanup pass.
+Task: Implement the revoke API key UI flow.
 
 Requirements:
-- check file sizes and split any file over 150 lines
-- ensure all new files are documented
-- ensure all index maps are updated
-- ensure route handlers are thin
-- ensure no UI files access repo or db directly
-- ensure no route file contains business logic
-- add any missing tests for critical domain flows
-- run lint, tests, and migration generation
-- prepare a summary of completed Phase 4 work
+- allow revoking an API key from the dashboard if revoke endpoint and logic already exist
+- show revoked state clearly
+- do not physically delete keys
+- keep the UI and logic simple
+- update docs and maps
+- add e2e coverage for revoking a key and confirming it is no longer active
+
+Expected outcome:
+- API key revoke flow exists
+- revoked state is visible
+- docs updated
+- tests added and passing
+```
+
+---
+
+## Task 14, add reusable UI state components
+
+```text
+Task: Add reusable UI state components for loading, empty, and error states.
+
+Requirements:
+- create very small reusable components or patterns for:
+  - loading state
+  - empty state
+  - error state
+- use them across Products, Inventory, Stock Movements, and API Keys screens
+- keep them minimal and not overabstracted
+- update UI docs and maps
+- ensure file size rules are respected
+
+Expected outcome:
+- consistent minimal UI states exist across dashboard screens
+- docs updated
+```
+
+---
+
+## Task 15, add notifications and form feedback
+
+```text
+Task: Implement minimal user feedback for dashboard actions.
+
+Requirements:
+- use sonner or the current approved notification pattern
+- provide clear success and error feedback for:
+  - product creation
+  - product update
+  - stock adjustment
+  - API key creation
+  - API key revoke
+- keep feedback concise and operational
+- update UI docs if necessary
+- add tests only where practical and valuable
+
+Expected outcome:
+- dashboard actions provide clear feedback
+- docs updated
+```
+
+---
+
+## Task 16, harden dashboard UX states
+
+```text
+Task: Harden dashboard UX for operational use.
+
+Requirements:
+- ensure forms disable or guard against duplicate submission where appropriate
+- ensure buttons and actions have sensible pending states
+- ensure screens behave correctly with empty datasets
+- ensure business errors are surfaced clearly
+- keep implementation simple
+- update docs/ui/screens.md and maps
+- add e2e coverage for key empty-state and failure-state behaviors
+
+Expected outcome:
+- dashboard behaves safely under common operational scenarios
+- docs updated
+- tests added and passing
+```
+
+---
+
+## Task 17, add end-to-end Phase 5 coverage
+
+```text
+Task: Add end-to-end coverage for the main dashboard flows.
+
+Requirements:
+- cover authenticated dashboard access
+- cover product creation
+- cover product editing
+- cover stock adjustment
+- cover movement history visibility
+- cover API key creation
+- cover API key revoke if implemented
+- keep tests focused and readable
+- update index/test-map.md and testing docs if needed
+
+Expected outcome:
+- core Phase 5 flows are covered by e2e tests
+- docs updated
+- tests added and passing
+```
+
+---
+
+## Task 18, Phase 5 cleanup and consistency pass
+
+```text
+Task: Perform a full Phase 5 cleanup and consistency pass.
+
+Requirements:
+- check file sizes and split oversized files
+- ensure all UI flows respect architecture boundaries
+- ensure no client UI files access repo or db directly
+- ensure docs, maps, and tests are complete
+- ensure loading, empty, and error states exist on all main screens
+- run lint, typecheck, unit tests, integration tests, and e2e tests
+- prepare a short summary of completed Phase 5 work
 - commit and push all completed logical changes if not already done
 
 Expected outcome:
-- Phase 4 codebase is consistent
-- docs and maps are complete
+- Phase 5 is complete, consistent, and reviewable
+- docs and maps are synchronized
 - tests are passing
-- project is ready for Phase 5
+- project is ready for Phase 6
 ```
 
 ---
 
-# Best order to run these prompts
+# Best order to run them
 
-Use this order exactly:
+Run exactly in this order:
 
 1. Task 1
     
@@ -411,36 +572,51 @@ Use this order exactly:
     
 14. Task 14
     
+15. Task 15
+    
+16. Task 16
+    
+17. Task 17
+    
+18. Task 18
+    
 
 ---
 
 # What you should review after each task
 
-Check only these:
+Check these only:
 
-- did it touch unrelated files?
+- did it touch unrelated files
     
-- did it exceed file size rules?
+- did it break file size rules
     
-- did it hide logic in routes?
+- did it push logic into pages or client UI where it should not live
     
-- did it skip docs?
+- did it skip docs
     
-- did it skip maps?
+- did it skip maps
     
-- did tests actually cover the new logic?
+- did it add weird abstractions
     
-- did commit message stay clean?
+- did it add heavy UI you never asked for
     
-
-If it violates any of these, reject and rerun narrowly.
+- did tests really cover the new behavior
+    
 
 ---
 
-# The one-line instruction to keep repeating to the AI
+# One small thing before starting Phase 5
 
-```text
-Do the smallest complete change that satisfies the task, then update docs, maps, tests, commit, and push.
+Create and commit the migration first:
+
+```bash
+pnpm db:migrate
+git add .
+git commit -m "chore: apply v1 database migrations"
+git push
 ```
 
-Next, I can turn this into a **single master operational file** like `docs/phase-4-prompt-pack.md` so you can just drop it into the repo and let agents use it directly.
+Then start Task 1.
+
+If you want, next I can generate the **`docs/agent-context/*.md` files** so your smaller models stop reading half the repo for every task.
