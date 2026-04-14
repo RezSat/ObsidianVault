@@ -299,7 +299,7 @@ Expected outcome:
 
 ---
 
-# Task 12, add API keys API route handlers
+# Task 12 (DONE), add API keys API route handlers
 
 ```text
 Task: Implement API key API routes.
