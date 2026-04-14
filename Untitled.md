@@ -275,7 +275,7 @@ Expected outcome:
 
 ---
 
-# Task 11, add stock movements API route handler
+# Task 11 Done, add stock movements API route handler
 
 ```text
 Task: Implement stock movements API route.
