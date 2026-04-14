@@ -244,7 +244,7 @@ Expected outcome:
 
 ---
 
-# Task 10, add inventory API route handlers
+# Task 10 (DONE), add inventory API route handlers
 
 ```text
 Task: Implement inventory API routes.
