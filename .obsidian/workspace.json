@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Untitled.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -28,15 +28,14 @@
               "type": "markdown",
               "state": {
                 "file": "Untitled 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Untitled 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,10 +207,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "712e618d82505fe9",
+  "active": "2d719bbc8ba65c3c",
   "lastOpenFiles": [
-    "Untitled.md",
     "Untitled 1.md",
+    "Untitled.md",
     "Data Science CheatSheets/00_Master_Index.md",
     "Data Science CheatSheets/09_Setup_And_Pip.md",
     "Data Science CheatSheets/08_Model_Interpretability.md",
